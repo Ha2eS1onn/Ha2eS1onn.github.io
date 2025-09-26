@@ -1,13 +1,12 @@
-.waline-avatar {
-    width: 48px; /* 头像宽度 */
-    height: 48px; /* 头像高度 */
-    border-radius: 50%; /* 圆形头像 */
-    background-color: #549fee; /* 自定义背景颜色 */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white; /* 字体颜色 */
-    font-size: 18px; /* 字体大小 */
-    font-weight: bold; /* 字体加粗 */
-    margin-right: 10px; /* 头像和评论内容之间的间距 */
-  }
+/* 彩色圆形文字头像 */
+.v-avatar {
+  width: 48px !important;
+  height: 48px !important;
+  border-radius: 50% !important;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  color: #fff !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  line-height: 48px !important;
+  text-align: center !important;
+}
