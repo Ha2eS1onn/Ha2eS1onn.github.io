@@ -1,0 +1,5 @@
+/* 悬浮播放器位置调整 */
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+  left: 10px !important;
+  bottom: 20px !important;
+}

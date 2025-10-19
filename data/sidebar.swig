@@ -1,0 +1,9 @@
+<meting-js
+  server="kugou"
+  type="playlist"
+  id="3z18goc2mz9z0e1"
+  fixed="true"
+  autoplay="false"
+  loop="all"
+  preload="auto">
+</meting-js>
