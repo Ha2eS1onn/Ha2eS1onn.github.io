@@ -21,7 +21,7 @@ export default defineSiteConfig({
   social: [
     {
       name: 'QQ',
-      link: 'https://raw.githubusercontent.com/Ha2eS1onn/image/refs/heads/main/images/2026/05/24/1779610131552_7bpfa_QQ.png',
+      link: 'https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/05/24/1779610131552_7bpfa_QQ.png',
       icon: 'i-ri-qq-line',
       color: '#12B7F5',
     },
@@ -39,7 +39,7 @@ export default defineSiteConfig({
     },
     {
       name: '微信',
-      link: 'https://raw.githubusercontent.com/Ha2eS1onn/image/refs/heads/main/images/2026/05/24/1779610231969_44bf7___.jpg',
+      link: 'https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/05/24/1779610231969_44bf7___.jpg',
       icon: 'i-ri-wechat-2-line',
       color: '#1AAD19',
     },
