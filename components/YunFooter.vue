@@ -55,7 +55,7 @@ watch(() => route.path, () => {
 <template>
   <div class="yun-footer">
     <div class="copyright">
-      © 2023 - 2026 Your Name
+      © 2025 - 2026 桦凇
     </div>
 
     <div class="footer-stats">
