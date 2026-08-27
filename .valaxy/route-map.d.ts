@@ -227,6 +227,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/projects/': RouteRecordInfo<
+      '/projects/',
+      '/projects',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/tags/': RouteRecordInfo<
       '/tags/',
       '/tags',
@@ -466,6 +473,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/python-原神启动.md': {
       routes:
         | '/posts/python-原神启动'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/projects/index.md': {
+      routes:
+        | '/projects/'
       views:
         | never
       pathParamNames:

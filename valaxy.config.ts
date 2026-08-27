@@ -22,13 +22,23 @@ export default defineValaxyConfig<UserThemeConfig>({
   ],
   theme: 'yun',
   themeConfig: {
-    say: {    //一言
+     // ========== 顶部导航栏 ==========
+    nav: [
+      { text: '文章', link: '/posts/', icon: 'i-ri-article-line' },
+      { text: '项目', link: '/projects', icon: 'i-ri-code-box-line' },  // ← 加这行
+      { text: '友链', link: '/links/', icon: 'i-ri-link' },
+      { text: '关于', link: '/about', icon: 'i-ri-user-line' },
+    ],
+    // ========== 一言 ==========
+    say: {
       enable: true,
       api: '/sentences.json', // 自定义 API 链接或 public/ 下的 JSON 路径
       hitokoto: {
         enable: false,
         api: 'https://v1.hitokoto.cn/?c=l',
       },
+
+      // ========= 美化 =========
     },
     banner: {
       enable: true,
@@ -41,7 +51,15 @@ export default defineValaxyConfig<UserThemeConfig>({
       enable: true,
       colors: ['#66A7DD', '#3E83E1', '#214EC2'],
     },
+
+    // ========== 页面配置 ==========
     pages: [
+      {
+        name: '项目整理',
+        url: '/projects/',
+        icon: 'i-ri-code-box-line',
+        color: 'dodgerblue',
+      },
       {
         name: '友情链接',
         url: '/links/',
@@ -50,6 +68,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       },
     ],
 
+    // ========== 页脚 ==========
     footer: {
       since: 2025,
       beian: {
