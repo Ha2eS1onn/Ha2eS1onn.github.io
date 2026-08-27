@@ -51,7 +51,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     ],
 
     footer: {
-      since: 2016,
+      since: 2025,
       beian: {
         enable: false,
         icp: '苏ICP备17038157号',
