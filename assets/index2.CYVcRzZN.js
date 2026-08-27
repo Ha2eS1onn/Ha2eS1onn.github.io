@@ -1,0 +1,1 @@
+import{K as e}from"./theme.CfNDkINf.js";var t=e({defaults:{"@type":`AggregateRating`}});export{t as aggregateRatingResolver};
