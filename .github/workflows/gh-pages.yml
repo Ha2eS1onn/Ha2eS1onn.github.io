@@ -1,36 +1,29 @@
-name: GitHub Pages
+name: Deploy Valaxy to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]  # 或 master
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          version: 8
+          node-version: 20
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: pnpm
-          registry-url: https://registry.npmjs.org/
+      - name: Install dependencies
+        run: npm ci
 
-      - name: Install Dependencies
-        run: pnpm install
-
-      - name: Build Valaxy Blog
-        run: pnpm run build
+      - name: Build
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          force_orphan: true

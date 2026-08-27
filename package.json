@@ -9,15 +9,17 @@
     "build:ssg": "valaxy build --ssg",
     "dev": "valaxy",
     "rss": "valaxy rss",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "deploy": "pnpm run build && gh-pages -d dist"
   },
   "dependencies": {
     "valaxy": "1.0.0-rc.8",
     "valaxy-addon-waline": "^0.2.1",
     "valaxy-theme-yun": "1.0.0-rc.8",
-    "vue-router": "^4.4.0"
+    "vue-router": "^5.2.0"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "typescript": "^5.9.3"
   }
 }
