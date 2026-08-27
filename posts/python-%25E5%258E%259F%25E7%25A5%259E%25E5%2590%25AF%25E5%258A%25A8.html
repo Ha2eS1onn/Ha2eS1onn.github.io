@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html  lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/08/26/1787754243620_ens7t___.png">
+    <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+    </script>
+  <style type="text/css">
+    :root { color-scheme: light dark; --va-c-bg: #fff; }
+    html.dark { --va-c-bg: #000; }
+    html { background-color: var(--va-c-bg); }
+  </style><style id="valaxy-fouc">body{opacity:0!important}</style><style>body{transition:opacity .15s ease}</style><noscript><style>body{opacity:1!important}</style></noscript><script>(function foucGuardScript(maxDuration) {
+  var done = 0;
+  function reveal() {
+    if (done) return;
+    done = 1;
+    var s = document.getElementById("valaxy-fouc");
+    if (s) s.remove();
+  }
+  function check() {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      if (!links[i].sheet) return;
+    }
+    reveal();
+  }
+  new MutationObserver(check).observe(document.head, {
+    childList: true,
+    attributes: true,
+    attributeFilter: ["media", "rel"]
+  });
+  addEventListener("load", reveal);
+  if (maxDuration)
+    setTimeout(reveal, maxDuration);
+})(5000)</script>
+    <script>
+    const locale = localStorage.getItem('valaxy-locale') || 'zh-CN';
+    document.documentElement.setAttribute('lang', locale);
+    </script>
+    
+  <script type="module" crossorigin src="/assets/index.Bvjj4ywv.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.hePW80VL.js">
+  <link rel="modulepreload" crossorigin href="/assets/framework.CSzCw9LZ.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-i18n.B-oSNfGy.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-router.COwyPYSv.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/dayjs.Ds-6csIR.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/pinia.DGibB4lL.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/@vueuse/motion.BLQEhJmm.js">
+  <link rel="modulepreload" crossorigin href="/assets/theme.rl1gq8eH.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/nprogress.Dew4DlVv.js">
+  <link rel="stylesheet" crossorigin href="/assets/style.CO_V7UEp.css">
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.DMm9YOAa.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Cx986IdX.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Jm3AIy58.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.BMLOBm91.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.B22Nviop.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.Dr94JaBh.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.t53AETM-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.DA0__PXp.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D3wIWfF6.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D5yQViql.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.C195tn64.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.oD1tc_U0.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size3-Regular.CTq5MqoE.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.BF-4gkZK.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff" as="font" type="font/woff" crossorigin>
+<link rel="modulepreload" crossorigin href="/assets/theme.rl1gq8eH.js">
+<link rel="preload" href="/assets/none.DLM1AMsD.jpg" as="image">
+<link rel="preload" href="/assets/bg-img.kXdNMxcF.jpg" as="image">
+<link rel="preload" href="/assets/sidebar-bg-img.mp54gEws.webp" as="image">
+<link rel="modulepreload" crossorigin href="/assets/python-原神启动.CK03G_pG.js">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>python-原神启动 - 桦凇的小站</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&display=swap">
+<meta property="og:locale:alternate" content="en">
+<meta name="description" content="亻尔     女 子    口 牙">
+<meta property="og:description" content="亻尔     女 子    口 牙">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:site_name" content="桦凇的小站">
+<meta property="og:title" content="python-原神启动">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/08/26/1787754243620_ens7t___.png">
+<meta property="og:image:alt" content="python-原神启动">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kasho.fun/posts/python-%25E5%258E%259F%25E7%25A5%259E%25E5%2590%25AF%25E5%258A%25A8">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="亻尔     女 子    口 牙">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/08/26/1787754243620_ens7t___.png">
+<meta name="twitter:title" content="python-原神启动">
+<link rel="icon" href="https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/08/26/1787754243620_ens7t___.png" type="image/png">
+<meta name="generator" content="Valaxy 1.0.0-rc.8">
+<link rel="canonical" href="https://kasho.fun/posts/python-%25E5%258E%259F%25E7%25A5%259E%25E5%2590%25AF%25E5%258A%25A8">
+<meta name="theme-color" content="#fff">
+<meta name="msapplication-TileColor" content="#fff">
+</head>
+<body>
+  <div id="app"><!--[--><!--[--><!--[--><!--v-if--><!--v-if--><div class="yun-page-header-gradient"></div><div class="yun-nav-menu z-$yun-z-nav-menu fixed bg-transparent" data-v-4fe97a81><!--  --><div class="inline-flex justify-start items-center flex-1" data-v-4fe97a81><button type="button" class="vt-hamburger menu-btn sidebar-toggle leading-4 size-12 lg:hidden!" aria-label="mobile navigation" aria-expanded="false" inline-flex cursor="pointer" hover="bg-white/80 dark:bg-black/80" z="$yun-z-menu-btn" data-v-4fe97a81><span class="vt-hamburger-container"><span class="vt-hamburger-top"></span><span class="vt-hamburger-middle"></span><span class="vt-hamburger-bottom"></span></span></button><a href="/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 data-v-4fe97a81><!--[--><div class="size-6 i-ri-home-4-line"></div><!--]--></a><div class="hidden lg:contents" data-v-4fe97a81><!--[--><a href="/posts/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="menu.posts" data-v-4fe97a81><!--[--><div class="size-6 i-ri-article-line"></div><!--]--></a><!--]--></div></div><div class="flex flex-1 flex-center" data-v-4fe97a81><div flex="~ center col h-full" class="nav-menu-title-container cursor-pointer" data-v-4fe97a81><!----><span class="font-light truncate">桦凇的小站</span></div></div><div class="inline-flex-center justify-end items-center flex-1" data-v-4fe97a81><!-- <template v-if="!app.isMobile && themeConfig.nav">
+          <template v-for="item in themeConfig.nav" :key="item.text">
+            <AppLink
+              v-if="'link' in item"
+              :to="item.link"
+              class="menu-btn inline-flex-center p-2 transition text-$va-c-text"
+              inline-flex cursor="pointer"
+              hover="bg-white/80 dark:bg-black/80"
+              z="$yun-z-menu-btn"
+            >
+              {{ item.text }}
+            </AppLink>
+            <template v-else-if="'items' in item" />
+          </template>
+        </template> --><button class="yun-icon-btn rounded-none! hidden sm:inline-flex" title="切换语言" style="color:var(--va-c-text);" data-v-4fe97a81><div i-ri-translate class="transition transform"></div></button><button class="yun-icon-btn yun-toggle-dark rounded-none!" title="切换深色模式" data-v-4fe97a81><div i="ri-sun-line dark:ri-moon-line"></div></button><!----></div></div><!----><!--v-if--><!----><!--[--><div class="yun-bg"></div><!--]--><!----><a href="#" class="back-to-top yun-icon-btn bg-$va-c-bg-soft shadow-md"><div class="size-8" i-ri-arrow-up-s-line></div><svg class="progress-circle-container" viewBox="0 0 100 100"><circle stroke-dasharray="301.59289474462014 301.59289474462014" stroke-dashoffset="301.59289474462014" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="progress-circle" cx="50" cy="50" r="48" fill="none"></circle></svg></a><!--]--><!--[--><!--]--><!----><!--]--><div class="min-h-screen flex flex-col"><div class="mt-12 md:mt-24 yun-layout-wrapper__content"><!--[--><div class="yun-layout-left gap-4 sticky top-$yun-margin-top w-80"><!--[--><div class="yun-card flex-center rounded-2 overflow-hidden p-4 min-h-sm" flex="~ col gap-1" min-h="100px" bg="$va-c-bg-light"><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center"><!--[--><div class="site-info gap-1 items-center text-center" flex="~ col" p="t-8"><a href="/about" class="site-author-avatar inline-flex-center"><div class="relative yun-author-avatar"><div class="absolute size-full avatar-bg bg-image-$yun-home-hero-image-background-image filter-blur-2xl op-30"></div><img class="rounded-full size-full bg-white dark:bg-white/20 p-1 m-0 absolute" src="https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/08/25/1787637241823_rf8td___.jpg" alt="avatar"><span class="site-author-status absolute" title="该干点啥呢">🫠</span></div></a><a href="/about" class="site-author-name font-black font-serif text-$va-c-text op-80 hover:op-100 flex-center">桦凇</a><a href="/about/site" class="site-name text-lg leading-loose">桦凇的小站</a><h4 class="site-subtitle block op-70" text="xs">Thanks for your visit!</h4><div class="site-description">亻尔     女 子    口 牙</div></div><div class="yun-gradient-line my-2 op-20"></div><nav class="site-nav" text-xl mt-2><a href="/archives/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="归档" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-archive-line"></div><div class="text-2xl icon-active i-ri-archive-fill"></div><span class="text-xs">归档</span></div><span class="count text-base text-black/80 dark:text-white/80">18</span></a><a href="/categories/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="分类" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-folder-2-line"></div><div class="text-2xl icon-active i-ri-folder-2-fill"></div><span class="text-xs">分类</span></div><span class="count text-base text-black/80 dark:text-white/80">4</span></a><a href="/tags/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="标签" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-price-tag-3-line"></div><div class="text-2xl icon-active i-ri-price-tag-3-fill"></div><span class="text-xs">标签</span></div><span class="count text-base text-black/80 dark:text-white/80">11</span></a></nav><div class="yun-gradient-line my-2 op-20"></div><div class="links-of-author"><!--[--><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://raw.githubusercontent.com/Ha2eS1onn/image/refs/heads/main/images/2026/05/24/1779610131552_7bpfa_QQ.png" title="QQ" target="_blank" style="color:#12B7F5;"><div class="i-ri-qq-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://github.com/Ha2eS1onn" title="GitHub" target="_blank" style="color:#6e5494;"><div class="i-ri-github-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://space.bilibili.com/1925086310" title="哔哩哔哩" target="_blank" style="color:#FF8EB3;"><div class="i-ri-bilibili-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://raw.githubusercontent.com/Ha2eS1onn/image/refs/heads/main/images/2026/05/24/1779610231969_44bf7___.jpg" title="微信" target="_blank" style="color:#1AAD19;"><div class="i-ri-wechat-2-line icon"></div></a><a class="links-of-author-item yun-icon-btn social-link-invert-in-dark" rel="noopener" href="https://x.com/hua_song114514" title="Twitter" target="_blank" style="color:black;"><div class="i-ri-twitter-x-fill icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="mailto:l14758426983@yeah.net" title="E-Mail" target="_blank" style="color:#8E71C1;"><div class="i-ri-mail-line icon"></div></a><!--]--></div><div class="yun-gradient-line my-2 op-20"></div><div class="links flex-center"><!--[--><a href="/links/" class="va-link link-item yun-icon-btn" inline-flex title="友情链接" style="color:dodgerblue;"><!--[--><div class="i-ri-link icon size-6"></div><!--]--></a><!--]--></div><!--]--></div><!----></div><!--[--><!--
+    Empty placeholder, meant to be overridden by the user (see demo/yun/components/YunAdBoard.vue).
+    `v-if="false"` renders a comment node instead of a real element: this avoids the SSR hydration
+    crash a raw `<template>` causes (#711), while still adding no gap to the parent flex layout,
+    which an empty `<div>` would (ab57216f).
+  --><!----><!--]--><!--]--></div><main class="yun-main lt-md:w-full" flex="~ center"><!--[--><div class="content w-full md:w-3xl lg:w-2xl xl:w-2xl 2xl:w-4xl" flex="~ col grow" p="lt-md:0"><div class="yun-card flex-center rounded-2 overflow-hidden" flex="col" min-h="100px" bg="$va-c-bg-light" m="0"><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center"><!--[--><!----><div class="mt-8 mb-4"><!--[--><header class="post-header"><h1 p="2" text="2xl center" font="serif black" style="color:" class="post-title flex-center"><!----><span inline-flex class="leading-none">python-原神启动</span></h1></header><!--]--></div><!--[--><!--[--><!--[--><!--[--><!----><div flex="~ center" text="sm" class="post-meta-col post-meta gap-4"><div class="post-time flex items-center gap-4"><span class="posted-time inline-flex-center gap-1" title="发表于2025-09-25 04:03:19"><div class="inline-block" i-ri-calendar-line></div><time class="op-80">2025-09-25</time></span><!----></div><!--[--><!--]--><div class="inline-flex-center gap-4"><!----><div class="inline-flex gap-4" text="sm" h="5"><!----><!----></div><!----></div></div><!--]--><!----><div class="inline-flex mt-2" text="sm" py="1"><a href="/categories?category=%E5%BC%80%E5%8F%91" class="transition post-category inline-flex-center text-xs border-$va-c-divider" px-2 h="7" border rounded-full hover="bg-blue-500 text-white"><div m="x-1" inline-flex i-ri-folder-2-line></div><span>开发</span></a><span mx="2"></span><div class="post-tags inline-flex" items="center" gap="1" flex="wrap 1" justify="end"><!--[--><a href="/tags/?tag=Python" class="transition post-tag inline-flex-center text-xs border-$va-c-divider" px-2 h="7" rounded-full border hover="bg-blue-500"><span>Python</span></a><!--]--></div></div><!--]--><!--]--><!--]--><div p="x-4 b-8" class="sm:px-6 lg:px-12 xl:px-16" w="full"><!--[--><!--]--><!--[--><!-- <Transition appear> --><article class="markdown-body"><!--[--><!----><!----><!--[--><!--]--><!--[--><pre><code>
+import tkinter as tk
+from tkinter import messagebox
+import webbrowser
+import time
+
+
+a_url = &#39;https://ys.mihoyo.com&#39;
+b_url = &#39;https://ys.mihoyo.com/cloud/?utm_source=default#/&#39;
+c_url = &#39;https://autopatchcn.yuanshen.com/client_app/download/launcher/20250729110751_0o5cKaH6l8f6g2dd/pcbackup317/yuanshen_setup_202507212010.exe&#39;
+
+
+# 网页a
+webbrowser.open(a_url)
+time.sleep(2.5)
+
+
+# 网页b
+webbrowser.open(b_url, new=2)
+
+#下载
+webbrowser .open(c_url, new=3)
+def show_popup():
+    messagebox.showinfo(&quot;原神启动&quot;, &quot;原神启动&quot;)
+
+# 创建主窗口
+root = tk.Tk()
+root.withdraw()  # 隐藏主窗口
+
+# 全屏弹窗
+show_popup()
+# 启动事件循环
+root.mainloop()
+</code></pre><hr><p>一个无聊的恶搞程序 运行打开原神官网并下载 还有打开云原神登录界面 最后是文本弹窗 <strong>“原神启动”</strong></p><h3 id="下载链接" tabindex="-1"><a href="https://ha2es1onn.lanzouu.com/ituCt37hfc4j" target="_blank" rel="noreferrer">下载链接</a> <a class="header-anchor" href="#下载链接" aria-label="Permalink to &quot;[下载链接](https://ha2es1onn.lanzouu.com/ituCt37hfc4j)&quot;">​</a></h3><!--]--><!--]--><!----><!----></article><!-- </Transition> --><!--]--><!--[--><!--[--><!--[--><div class="yun-sponsor-container flex-center flex-col" m="t-6"><button class="sponsor-button yun-icon-btn shadow hover:shadow-md" title="我很可爱，请给我钱！" text="red-400"><div class="mt-2px" i-ri-heart-fill></div></button><div m="y-4" class="qrcode-container qrcode flex-center flex-col"><div class="sponsor-description" mb="4" text="sm">这是关于赞助的一些描述</div><div class="flex justify-around"><!--[--><a class="flex-center flex-col animate-iteration-1 animate-fade-in" href="https://raw.githubusercontent.com/Ha2eS1onn/image/refs/heads/main/images/2026/05/24/1779610312719_6v2y4____.jpg" target="_blank" style="color:#00A3EE"><img class="sponsor-method-img" border="~ rounded" p="1" loading="lazy" src="https://raw.githubusercontent.com/Ha2eS1onn/image/refs/heads/main/images/2026/05/24/1779610312719_6v2y4____.jpg" title="支付宝"><div text="xl" m="2" class="i-ri-alipay-line"></div></a><a class="flex-center flex-col animate-iteration-1 animate-fade-in" href="https://raw.githubusercontent.com/Ha2eS1onn/image/refs/heads/main/images/2026/05/24/1779610226169_gb3cq___.png" target="_blank" style="color:#2DC100"><img class="sponsor-method-img" border="~ rounded" p="1" loading="lazy" src="https://raw.githubusercontent.com/Ha2eS1onn/image/refs/heads/main/images/2026/05/24/1779610226169_gb3cq___.png" title="微信支付"><div text="xl" m="2" class="i-ri-wechat-pay-line"></div></a><!--]--></div></div></div><ul class="post-copyright" m="y-4"><li class="post-copyright-author"><strong>本文作者：</strong><span>桦凇</span></li><li class="post-copyright-link"><strong>本文链接：</strong><a href="https://kasho.fun/posts/python-%25E5%258E%259F%25E7%25A5%259E%25E5%2590%25AF%25E5%258A%25A8" target="_blank" title="本文链接">https://kasho.fun/posts/python-%E5%8E%9F%E7%A5%9E%E5%90%AF%E5%8A%A8</a></li><li class="post-copyright-license"><strong>版权声明：</strong><span>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 ">CC BY-NC-SA</a> 许可协议。</span></li></ul><!--]--><!--]--><!--]--></div><!--]--></div><!----></div><!--[--><!--]--><!--[--><div class="post-nav"><div class="post-nav-item"><a href="/posts/%25E8%2599%259E%25E7%25BE%258E%25E4%25BA%25BA%25E2%2580%2594%25E4%25B8%259C%25E9%25A3%258E%25E5%2587%258C%25E6%259C%2588%25E6%2598%258E%25E9%259D%2592%25E6%25B1%25A0" class="post-nav-prev" title="虞美人·东风凌月明青池"><div class="icon" i-ri-arrow-left-s-line></div><span class="title truncate" text="sm">虞美人·东风凌月明青池</span></a></div><div class="post-nav-item"><a href="/posts/%25E5%2586%25B7%25E9%259B%25A8%25E5%25A4%259C" class="post-nav-next" title="冷雨夜"><span class="title truncate" text="sm">冷雨夜</span><div class="icon" i-ri-arrow-right-s-line></div></a></div></div><!--]--><!--[--><!--]--><!--[--><div class="yun-card flex-center rounded-2 overflow-hidden comment yun-comment sm:p-6 lg:px-12 xl:px-16" flex="col" min-h="100px" bg="$va-c-bg-light" w="full" p="4"><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center"><!--[--><!----><!--]--></div><!----></div><!--]--><!--[--><!--
+    Empty placeholder, meant to be overridden by the user (see demo/yun/components/YunAdBoard.vue).
+    `v-if="false"` renders a comment node instead of a real element: this avoids the SSR hydration
+    crash a raw `<template>` causes (#711), while still adding no gap to the parent flex layout,
+    which an empty `<div>` would (ab57216f).
+  --><!----><!--]--><!--[--><!--]--><!--[--><!--]--></div><!--]--></main><!--[--><button class="xl:hidden toc-btn shadow-md fixed yun-icon-btn z-20 bg-$va-c-bg-soft" opacity="75" right="4" bottom="19"><div i-ri-file-list-line></div></button><!----><aside flex="~ col" class="va-card yun-aside min-h-sm rounded-2" text="center" overflow="auto"><div class="w-full" flex="~ col" pb-2><!--[--><h2 m="t-6 b-2" font="serif black">文章目录</h2><div style="display:none;" data-v-a8f81f01><div class="content" data-v-a8f81f01><div class="outline-title" data-v-a8f81f01>本页</div><div class="outline-marker" data-v-a8f81f01></div><nav aria-labelledby="doc-outline-aria-label" data-v-a8f81f01><span id="doc-outline-aria-label" class="visually-hidden" data-v-a8f81f01> Table of Contents for current page </span><ul class="root va-toc relative z-1 css-i18n-toc" data-v-a8f81f01 data-v-cd405972><!--[--><!--]--></ul></nav></div></div><!--]--><div class="flex-grow"></div><!----></div></aside><!--]--><!--]--></div><footer flex="~ col" class="relative yun-footer va-footer px-4 py-4 pt-0 text-$va-c-text-light w-full mt-14" bg="white dark:$va-c-bg-soft" text="center sm"><div class="yun-cloud absolute top--10 left-0 right-0"><svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" fill="var(--yun-c-cloud)"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><!----><div class="copyright flex justify-center items-center gap-2" p="1"><span> © <!--[-->2016 - <!--]--> 2026</span><a class="animate-pulse inline-flex" href="https://www.yunyoujun.cn/sponsors/" target="_blank" title="Sponsor YunYouJun"><div class="i-ri-cloud-line"></div></a><span>桦凇</span></div><div class="powered" m="2"><span>由 <a href="https://github.com/YunYouJun/valaxy.git" target="_blank" rel="noopener">Valaxy</a> <span class="op-60">v1.0.0-rc.8</span> 驱动</span><span mx-1>|</span><span><span>主题</span><span mx-1>-</span><a href="https://github.com/YunYouJun/valaxy.git" title="valaxy-theme-yun" target="_blank">Yun</a><span class="ml-1 op-60">v1.0.0-rc.8</span></span></div><!--[--><!--]--><div class="yun-footer-gradient"></div></footer></div><!--]--></div><script>window.__INITIAL_STATE__='{"pinia":{"yun-app":{"bannerAnimationDone":false},"app":{"showLoading":true},"site":{},"routerStore":{}}}'</script><script type="application/ld+json" data-hid="schema-org-graph">{"@context":"https://schema.org","@graph":[{"@id":"https://kasho.fun/#identity","@type":"Person","name":"桦凇","url":"https://kasho.fun/","image":{"@id":"https://kasho.fun/#/schema/image/1"},"sameAs":["https://raw.githubusercontent.com/Ha2eS1onn/image/refs/heads/main/images/2026/05/24/1779610131552_7bpfa_QQ.png","https://github.com/Ha2eS1onn","https://space.bilibili.com/1925086310","https://raw.githubusercontent.com/Ha2eS1onn/image/refs/heads/main/images/2026/05/24/1779610231969_44bf7___.jpg","https://x.com/hua_song114514","mailto:l14758426983@yeah.net"]},{"@id":"https://kasho.fun/#website","@type":"WebSite","dateModified":"2025-09-25T04:03:19.000Z","datePublished":"2025-09-25T04:03:19.000Z","inLanguage":"zh-CN","name":"python-原神启动","url":"https://kasho.fun/","publisher":{"@id":"https://kasho.fun/#identity"}},{"@id":"https://kasho.fun/#webpage","@type":"WebPage","dateModified":"2025-09-25T04:03:19.000Z","datePublished":"2025-09-25T04:03:19.000Z","description":"亻尔     女 子    口 牙","name":"python-原神启动","url":"https://kasho.fun/","about":{"@id":"https://kasho.fun/#identity"},"isPartOf":{"@id":"https://kasho.fun/#website"},"potentialAction":[{"@type":"ReadAction","target":["https://kasho.fun/"]}]},{"@id":"https://kasho.fun/#article","dateModified":"2025-09-25T04:03:19.000Z","datePublished":"2025-09-25T04:03:19.000Z","description":"亻尔     女 子    口 牙","headline":"python-原神启动","inLanguage":"zh-CN","thumbnailUrl":"https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/08/26/1787754243620_ens7t___.png","@type":["Article","BlogPosting"],"author":{"@id":"https://kasho.fun/#/schema/person/1"},"image":{"@id":"https://kasho.fun/#/schema/image/2"},"isPartOf":{"@id":"https://kasho.fun/#webpage"},"mainEntityOfPage":{"@id":"https://kasho.fun/#webpage"},"publisher":{"@id":"https://kasho.fun/#identity"}},{"@id":"https://kasho.fun/#/schema/person/1","@type":"Person","name":"桦凇","url":"https://valaxy.site"},{"@id":"https://kasho.fun/#/schema/image/1","@type":"ImageObject","contentUrl":"https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/08/25/1787637241823_rf8td___.jpg","inLanguage":"zh-CN","url":"https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/08/25/1787637241823_rf8td___.jpg"},{"@id":"https://kasho.fun/#/schema/image/2","@type":"ImageObject","contentUrl":"https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/08/26/1787754243620_ens7t___.png","inLanguage":"zh-CN","url":"https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/08/26/1787754243620_ens7t___.png"}]}</script>
+  
+</body>
+</html>
