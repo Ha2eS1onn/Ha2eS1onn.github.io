@@ -22,11 +22,11 @@ export default defineValaxyConfig<UserThemeConfig>({
   ],
   theme: 'yun',
   themeConfig: {
-    say: {
+    say: {    //一言
       enable: true,
-      api: '', // 自定义 API 链接或 public/ 下的 JSON 路径
+      api: '/sentences.json', // 自定义 API 链接或 public/ 下的 JSON 路径
       hitokoto: {
-        enable: true,
+        enable: false,
         api: 'https://v1.hitokoto.cn/?c=l',
       },
     },
