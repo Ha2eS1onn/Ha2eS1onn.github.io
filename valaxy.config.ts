@@ -22,6 +22,14 @@ export default defineValaxyConfig<UserThemeConfig>({
   ],
   theme: 'yun',
   themeConfig: {
+    say: {
+      enable: true,
+      api: '', // 自定义 API 链接或 public/ 下的 JSON 路径
+      hitokoto: {
+        enable: true,
+        api: 'https://v1.hitokoto.cn/?c=l',
+      },
+    },
     banner: {
       enable: true,
       title: '桦凇的小站',
