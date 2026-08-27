@@ -1,1 +1,0 @@
-import{K as e,nt as t,tt as n}from"./theme.M3V3Gm54.js";var r=e({cast(e){return typeof e==`string`&&(e={name:e}),e},defaults:{"@type":`ListItem`},resolve(e,r){return typeof e.item==`string`?e.item=t(r.meta.host,e.item):typeof e.item==`object`&&(e.item=n(e.item,r)),e}});export{r as listItemResolver};
