@@ -143,13 +143,6 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/关于世界语': RouteRecordInfo<
-      '/posts/关于世界语',
-      '/posts/%E5%85%B3%E4%BA%8E%E4%B8%96%E7%95%8C%E8%AF%AD',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/posts/关于评论的公告': RouteRecordInfo<
       '/posts/关于评论的公告',
       '/posts/%E5%85%B3%E4%BA%8E%E8%AF%84%E8%AE%BA%E7%9A%84%E5%85%AC%E5%91%8A',
@@ -230,6 +223,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/觉前暇思': RouteRecordInfo<
       '/posts/觉前暇思',
       '/posts/%E8%A7%89%E5%89%8D%E6%9A%87%E6%80%9D',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/语言一二事': RouteRecordInfo<
+      '/posts/语言一二事',
+      '/posts/%E8%AF%AD%E8%A8%80%E4%B8%80%E4%BA%8C%E4%BA%8B',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -424,14 +424,6 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
-    'pages/posts/关于世界语.md': {
-      routes:
-        | '/posts/关于世界语'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
     'pages/posts/关于评论的公告.md': {
       routes:
         | '/posts/关于评论的公告'
@@ -523,6 +515,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/觉前暇思.md': {
       routes:
         | '/posts/觉前暇思'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/语言一二事.md': {
+      routes:
+        | '/posts/语言一二事'
       views:
         | never
       pathParamNames:
