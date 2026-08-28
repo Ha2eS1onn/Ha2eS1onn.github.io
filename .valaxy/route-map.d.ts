@@ -143,6 +143,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/关于世界语': RouteRecordInfo<
+      '/posts/关于世界语',
+      '/posts/%E5%85%B3%E4%BA%8E%E4%B8%96%E7%95%8C%E8%AF%AD',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/关于评论的公告': RouteRecordInfo<
       '/posts/关于评论的公告',
       '/posts/%E5%85%B3%E4%BA%8E%E8%AF%84%E8%AE%BA%E7%9A%84%E5%85%AC%E5%91%8A',
@@ -230,6 +237,20 @@ declare module 'vue-router/auto-routes' {
     '/posts/鹊桥仙-燕飞伴云': RouteRecordInfo<
       '/posts/鹊桥仙-燕飞伴云',
       '/posts/%E9%B9%8A%E6%A1%A5%E4%BB%99-%E7%87%95%E9%A3%9E%E4%BC%B4%E4%BA%91',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/esperanto-day-1': RouteRecordInfo<
+      '/posts/esperanto-day-1',
+      '/posts/esperanto-day-1',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/esperanto-day-2': RouteRecordInfo<
+      '/posts/esperanto-day-2',
+      '/posts/esperanto-day-2',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -403,6 +424,14 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/关于世界语.md': {
+      routes:
+        | '/posts/关于世界语'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/关于评论的公告.md': {
       routes:
         | '/posts/关于评论的公告'
@@ -502,6 +531,22 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/鹊桥仙-燕飞伴云.md': {
       routes:
         | '/posts/鹊桥仙-燕飞伴云'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/esperanto-day-1.md': {
+      routes:
+        | '/posts/esperanto-day-1'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/esperanto-day-2.md': {
+      routes:
+        | '/posts/esperanto-day-2'
       views:
         | never
       pathParamNames:
