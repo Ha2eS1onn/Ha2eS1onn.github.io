@@ -73,7 +73,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         name: '相册',
         url: '/albums/',
         icon: 'i-ri-gallery-line',
-        color: '#43abee',
+        color: '#ff9100',
       },
     ],
 
