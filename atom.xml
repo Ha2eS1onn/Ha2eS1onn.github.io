@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kasho.fun/</id>
     <title>桦凇的小站</title>
-    <updated>2026-08-28T21:48:22.533Z</updated>
+    <updated>2026-08-28T22:27:01.366Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>桦凇</name>
@@ -16,17 +16,17 @@
     <icon>https://kasho.fun/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2026 © 桦凇</rights>
     <entry>
-        <title type="html"><![CDATA[关于世界语]]></title>
-        <id>https://kasho.fun/posts/关于世界语</id>
-        <link href="https://kasho.fun/posts/关于世界语"/>
+        <title type="html"><![CDATA[语言一二事]]></title>
+        <id>https://kasho.fun/posts/语言一二事</id>
+        <link href="https://kasho.fun/posts/语言一二事"/>
         <updated>2026-08-29T04:15:00.000Z</updated>
-        <content type="html"><![CDATA[<h1>我和语言</h1>
+        <content type="html"><![CDATA[<h1>细路仔唔识讲话</h1>
 <blockquote>
 <p>其实熟悉我的人都知道，我对语言学比较感兴趣。虽然我的外语成绩也不算很好，甚至有点拉……但是没所谓，语言学对我来说还是很有吸引力的。</p>
 </blockquote>
-<h2>小时候</h2>
-<p>我是一个土生土长的老广（16倒也不</p>
-<br/><p>访问 <a href="https://kasho.fun/posts/关于世界语" target="_blank">https://kasho.fun/posts/关于世界语</a> 阅读全文。</p>]]></content>
+<h3>小时候</h3>
+<p>我是一个土生土长的老广（1</p>
+<br/><p>访问 <a href="https://kasho.fun/posts/语言一二事" target="_blank">https://kasho.fun/posts/语言一二事</a> 阅读全文。</p>]]></content>
         <author>
             <name>桦凇</name>
             <email>i@valaxy.site</email>
