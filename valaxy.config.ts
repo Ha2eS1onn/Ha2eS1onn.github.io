@@ -1,6 +1,7 @@
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig } from 'valaxy'
 import { addonWaline } from 'valaxy-addon-waline'
+import { addonLightGallery } from "valaxy-addon-lightgallery"
 
 const safelist = [
   'i-ri-home-line',
@@ -19,15 +20,17 @@ export default defineValaxyConfig<UserThemeConfig>({
       // Waline 配置项，参考 https://waline.js.org/reference/client/props.html
       serverURL: 'https://comment.kasho.fun',
     }),
+    addonLightGallery(),
   ],
   theme: 'yun',
   themeConfig: {
-     // ========== 顶部导航栏 ==========
+    // ========== 顶部导航栏 ==========
     nav: [
       { text: '文章', link: '/posts/', icon: 'i-ri-article-line' },
       { text: '项目', link: '/projects', icon: 'i-ri-code-box-line' },  // ← 加这行
       { text: '友链', link: '/links/', icon: 'i-ri-link' },
       { text: '关于', link: '/about', icon: 'i-ri-user-line' },
+      { text: '相册', link: '/albums/', icon: 'i-ri-gallery-line' },
     ],
     // ========== 一言 ==========
     say: {
@@ -65,6 +68,12 @@ export default defineValaxyConfig<UserThemeConfig>({
         url: '/links/',
         icon: 'i-ri-link',
         color: 'dodgerblue',
+      },
+      {
+        name: '相册',
+        url: '/albums/',
+        icon: 'i-ri-gallery-line',
+        color: '#43abee',
       },
     ],
 

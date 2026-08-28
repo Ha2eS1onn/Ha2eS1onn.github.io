@@ -66,6 +66,27 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/albums/': RouteRecordInfo<
+      '/albums/',
+      '/albums',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/albums/humanistic': RouteRecordInfo<
+      '/albums/humanistic',
+      '/albums/humanistic',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/albums/stars': RouteRecordInfo<
+      '/albums/stars',
+      '/albums/stars',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/archives/': RouteRecordInfo<
       '/archives/',
       '/archives',
@@ -289,6 +310,30 @@ declare module 'vue-router/auto-routes' {
     'pages/about/site.md': {
       routes:
         | '/about/site'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/albums/index.md': {
+      routes:
+        | '/albums/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/albums/humanistic.md': {
+      routes:
+        | '/albums/humanistic'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/albums/stars.md': {
+      routes:
+        | '/albums/stars'
       views:
         | never
       pathParamNames:
