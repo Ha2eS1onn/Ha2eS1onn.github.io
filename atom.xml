@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kasho.fun/</id>
     <title>桦凇的小站</title>
-    <updated>2026-08-28T15:38:53.052Z</updated>
+    <updated>2026-08-28T21:48:22.533Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>桦凇</name>
@@ -15,6 +15,87 @@
     <logo>https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/08/25/1787637241823_rf8td___.jpg</logo>
     <icon>https://kasho.fun/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2026 © 桦凇</rights>
+    <entry>
+        <title type="html"><![CDATA[关于世界语]]></title>
+        <id>https://kasho.fun/posts/关于世界语</id>
+        <link href="https://kasho.fun/posts/关于世界语"/>
+        <updated>2026-08-29T04:15:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>我和语言</h1>
+<blockquote>
+<p>其实熟悉我的人都知道，我对语言学比较感兴趣。虽然我的外语成绩也不算很好，甚至有点拉……但是没所谓，语言学对我来说还是很有吸引力的。</p>
+</blockquote>
+<h2>小时候</h2>
+<p>我是一个土生土长的老广（16倒也不</p>
+<br/><p>访问 <a href="https://kasho.fun/posts/关于世界语" target="_blank">https://kasho.fun/posts/关于世界语</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>桦凇</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-08-29T04:15:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Esperanto Day-2]]></title>
+        <id>https://kasho.fun/posts/esperanto-day-2</id>
+        <link href="https://kasho.fun/posts/esperanto-day-2"/>
+        <updated>2026-08-29T02:32:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>世界语(Esperanto)学习记录 -day 1</h1>
+<br>
+<table>
+<thead>
+<tr>
+<th>Esperanto</th>
+<th>English</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>en</td>
+<td>in/into/at</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<br/><p>访问 <a href="https://kasho.fun/posts/esperanto-day-2" target="_blank">https://kasho.fun/posts/esperanto-day-2</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>桦凇</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-08-29T02:32:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Esperanto Day 1]]></title>
+        <id>https://kasho.fun/posts/esperanto-day-1</id>
+        <link href="https://kasho.fun/posts/esperanto-day-1"/>
+        <updated>2026-08-28T02:57:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>世界语(Esperanto)学习记录 -day 1</h1>
+<br>
+<table>
+<thead>
+<tr>
+<th>Esperanto</th>
+<th>Engiish</th>
+<th>Chinese</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>mi</td>
+<td>I, me,</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<br/><p>访问 <a href="https://kasho.fun/posts/esperanto-day-1" target="_blank">https://kasho.fun/posts/esperanto-day-1</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>桦凇</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-08-28T02:57:00.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[米家设备管理 (Mijia Web Manager)]]></title>
         <id>https://kasho.fun/posts/Mijia-Web-Manager</id>

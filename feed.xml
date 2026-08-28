@@ -4,7 +4,7 @@
         <title>桦凇的小站</title>
         <link>https://kasho.fun/</link>
         <description>亻尔     女 子    口 牙</description>
-        <lastBuildDate>Fri, 28 Aug 2026 15:38:53 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Aug 2026 21:48:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,72 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2026 © 桦凇</copyright>
         <atom:link href="https://kasho.fun/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[关于世界语]]></title>
+            <link>https://kasho.fun/posts/关于世界语</link>
+            <guid isPermaLink="false">https://kasho.fun/posts/关于世界语</guid>
+            <pubDate>Sat, 29 Aug 2026 04:15:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>我和语言</h1>
+<blockquote>
+<p>其实熟悉我的人都知道，我对语言学比较感兴趣。虽然我的外语成绩也不算很好，甚至有点拉……但是没所谓，语言学对我来说还是很有吸引力的。</p>
+</blockquote>
+<h2>小时候</h2>
+<p>我是一个土生土长的老广（16倒也不</p>
+<br/><p>访问 <a href="https://kasho.fun/posts/关于世界语" target="_blank">https://kasho.fun/posts/关于世界语</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (桦凇)</author>
+        </item>
+        <item>
+            <title><![CDATA[Esperanto Day-2]]></title>
+            <link>https://kasho.fun/posts/esperanto-day-2</link>
+            <guid isPermaLink="false">https://kasho.fun/posts/esperanto-day-2</guid>
+            <pubDate>Sat, 29 Aug 2026 02:32:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>世界语(Esperanto)学习记录 -day 1</h1>
+<br>
+<table>
+<thead>
+<tr>
+<th>Esperanto</th>
+<th>English</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>en</td>
+<td>in/into/at</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<br/><p>访问 <a href="https://kasho.fun/posts/esperanto-day-2" target="_blank">https://kasho.fun/posts/esperanto-day-2</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (桦凇)</author>
+        </item>
+        <item>
+            <title><![CDATA[Esperanto Day 1]]></title>
+            <link>https://kasho.fun/posts/esperanto-day-1</link>
+            <guid isPermaLink="false">https://kasho.fun/posts/esperanto-day-1</guid>
+            <pubDate>Fri, 28 Aug 2026 02:57:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>世界语(Esperanto)学习记录 -day 1</h1>
+<br>
+<table>
+<thead>
+<tr>
+<th>Esperanto</th>
+<th>Engiish</th>
+<th>Chinese</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>mi</td>
+<td>I, me,</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<br/><p>访问 <a href="https://kasho.fun/posts/esperanto-day-1" target="_blank">https://kasho.fun/posts/esperanto-day-1</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (桦凇)</author>
+        </item>
         <item>
             <title><![CDATA[米家设备管理 (Mijia Web Manager)]]></title>
             <link>https://kasho.fun/posts/Mijia-Web-Manager</link>
