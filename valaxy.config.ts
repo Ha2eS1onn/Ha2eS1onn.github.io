@@ -14,7 +14,6 @@ export default defineValaxyConfig<UserThemeConfig>({
       enable: true
     },
   },
-  // 设置 valaxy-addon-waline 配置项
   addons: [
     addonWaline({
       // Waline 配置项，参考 https://waline.js.org/reference/client/props.html
@@ -31,6 +30,9 @@ export default defineValaxyConfig<UserThemeConfig>({
       { text: '友链', link: '/links/', icon: 'i-ri-link' },
       { text: '关于', link: '/about', icon: 'i-ri-user-line' },
       { text: '相册', link: '/albums/', icon: 'i-ri-gallery-line' },
+      { text: '归档', link: '/archives/', icon: 'i-ri-archive-line' },
+      { text: '标签', link: '/tags/', icon: 'i-ri-price-tag-3-line' },
+      { text: '分类', link: '/categories/', icon: 'i-ri-folder-2-line' },
     ],
     // ========== 一言 ==========
     say: {
@@ -61,13 +63,13 @@ export default defineValaxyConfig<UserThemeConfig>({
         name: '项目整理',
         url: '/projects/',
         icon: 'i-ri-code-box-line',
-        color: 'dodgerblue',
+        color: '#00bfff',
       },
       {
         name: '友情链接',
         url: '/links/',
         icon: 'i-ri-link',
-        color: 'dodgerblue',
+        color: '#ff8282',
       },
       {
         name: '相册',

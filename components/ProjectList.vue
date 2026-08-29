@@ -29,6 +29,13 @@ const projects: Project[] = [
     site: 'https://github.com/Ha2eS1onn/mijia-web-manager',
     tags: ['React', 'Node.js', 'IoT'],
   },
+  {
+    name: '侨木志',
+    desc: '校园树木记录站，收集校园内的树木信息。',
+    repo: 'https://github.com/Ha2eS1onn/campus-tree-map',
+    site: 'https://tree.kasho.fun/',
+    tags: ['HTML', 'Leaflet', 'GIS'],
+  }
 ]
 </script>
 
