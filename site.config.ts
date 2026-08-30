@@ -12,7 +12,7 @@ export default defineSiteConfig({
       message: '该干点啥呢',
     }
   },
-  favicon: 'https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/08/26/1787754243620_ens7t___.png',
+  favicon: '/favicon.png',
   description: '亻尔     女 子    口 牙',
   subtitle: "Thanks for your visit!",
 
@@ -21,7 +21,7 @@ export default defineSiteConfig({
   social: [
     {
       name: 'QQ',
-      link: 'https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/05/24/1779610131552_7bpfa_QQ.png',
+      link: 'QQ.html',
       icon: 'i-ri-qq-line',
       color: '#12B7F5',
     },
@@ -39,7 +39,7 @@ export default defineSiteConfig({
     },
     {
       name: '微信',
-      link: 'https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/05/24/1779610231969_44bf7___.jpg',
+      link: '/Wechat.html',
       icon: 'i-ri-wechat-2-line',
       color: '#1AAD19',
     },
