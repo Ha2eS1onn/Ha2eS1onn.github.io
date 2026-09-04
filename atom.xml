@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kasho.fun/</id>
     <title>桦凇的小站</title>
-    <updated>2026-08-30T16:46:56.241Z</updated>
+    <updated>2026-09-04T13:54:49.872Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>桦凇</name>
@@ -15,6 +15,26 @@
     <logo>https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/08/25/1787637241823_rf8td___.jpg</logo>
     <icon>https://kasho.fun/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2026 © 桦凇</rights>
+    <entry>
+        <title type="html"><![CDATA[秋昏杂兴]]></title>
+        <id>https://kasho.fun/posts/秋昏杂兴</id>
+        <link href="https://kasho.fun/posts/秋昏杂兴"/>
+        <updated>2026-09-03T21:50:22.000Z</updated>
+        <content type="html"><![CDATA[<h1 align="center">秋昏杂兴</h1>
+<center>
+碎鳞翻覆示风嚣，<br>
+天碧云流话秋高。<br>
+二人箪食座危台，<br>
+无拘赏景沁心采。
+</center>
+<div<br/><p>访问 <a href="https://kasho.fun/posts/秋昏杂兴" target="_blank">https://kasho.fun/posts/秋昏杂兴</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>桦凇</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-09-03T21:50:22.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[语言一二事]]></title>
         <id>https://kasho.fun/posts/语言一二事</id>

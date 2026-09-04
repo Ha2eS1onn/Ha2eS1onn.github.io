@@ -4,7 +4,7 @@
         <title>桦凇的小站</title>
         <link>https://kasho.fun/</link>
         <description>亻尔     女 子    口 牙</description>
-        <lastBuildDate>Sun, 30 Aug 2026 16:46:56 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 04 Sep 2026 13:54:49 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,21 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2026 © 桦凇</copyright>
         <atom:link href="https://kasho.fun/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[秋昏杂兴]]></title>
+            <link>https://kasho.fun/posts/秋昏杂兴</link>
+            <guid isPermaLink="false">https://kasho.fun/posts/秋昏杂兴</guid>
+            <pubDate>Thu, 03 Sep 2026 21:50:22 GMT</pubDate>
+            <content:encoded><![CDATA[<h1 align="center">秋昏杂兴</h1>
+<center>
+碎鳞翻覆示风嚣，<br>
+天碧云流话秋高。<br>
+二人箪食座危台，<br>
+无拘赏景沁心采。
+</center>
+<div<br/><p>访问 <a href="https://kasho.fun/posts/秋昏杂兴" target="_blank">https://kasho.fun/posts/秋昏杂兴</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (桦凇)</author>
+        </item>
         <item>
             <title><![CDATA[语言一二事]]></title>
             <link>https://kasho.fun/posts/语言一二事</link>
