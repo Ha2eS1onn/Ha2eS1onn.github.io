@@ -13,10 +13,10 @@
     "deploy": "pnpm run build && gh-pages -d dist"
   },
   "dependencies": {
-    "valaxy": "1.0.0-rc.8",
+    "valaxy": "1.0.0-rc.16",
     "valaxy-addon-lightgallery": "^0.0.4",
     "valaxy-addon-waline": "^0.2.1",
-    "valaxy-theme-yun": "1.0.0-rc.8",
+    "valaxy-theme-yun": "1.0.0-rc.16",
     "vue-router": "^5.2.0"
   },
   "devDependencies": {

@@ -60,17 +60,17 @@ categories:
 #### 启动步骤
 
 1. 启动后端服务：
-   <pre><code class="language-bash">
+   ```bash
    cd backend
    pip install -r requirements.txt
    uvicorn main:app --reload --port 8000
-   </code></pre>
+   ```
 
 2. 启动前端开发服务：
-   <pre><code class="language-bash">
+   ```bash
    npm install
    npm run dev
-   </code></pre>
+   ```
    
    启动成功后，访问 <http://localhost:5173> ，使用米家APP扫码登录即可。Windows用户也可直接运行 `start-dev.bat` 或 `start-dev.ps1` 脚本实现一键启停。
 

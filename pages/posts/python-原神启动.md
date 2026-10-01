@@ -7,7 +7,7 @@ categories:
  - 开发
 ---
 
-<pre><code>
+```python
 import tkinter as tk
 from tkinter import messagebox
 import webbrowser
@@ -40,7 +40,7 @@ root.withdraw()  # 隐藏主窗口
 show_popup()
 # 启动事件循环
 root.mainloop()
-</code></pre>
+```
 
 ----------------------------------------------
 

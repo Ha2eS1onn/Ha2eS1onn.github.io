@@ -276,6 +276,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/RenamePro': RouteRecordInfo<
+      '/posts/RenamePro',
+      '/posts/RenamePro',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/projects/': RouteRecordInfo<
       '/projects/',
       '/projects',
@@ -303,7 +310,7 @@ declare module 'vue-router/auto-routes' {
    * @internal
    */
   export interface _RouteFileInfoMap {
-    'node_modules/.pnpm/valaxy-theme-yun@1.0.0-rc.8_d605b7048e33467f1b396db36d16d220/node_modules/valaxy-theme-yun/pages/index.vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@1.0.0-rc.1_e9e44b080f84a3b1839bc15626b52cd0/node_modules/valaxy-theme-yun/pages/index.vue': {
       routes:
         | '/'
       views:
@@ -311,7 +318,7 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
-    'node_modules/.pnpm/valaxy@1.0.0-rc.8_@babel+pa_a076aeca96c7b5d092c958ffa05ad806/node_modules/valaxy/client/pages/[...path].vue': {
+    'node_modules/.pnpm/valaxy@1.0.0-rc.16_@babel+p_79cf4e60be6891ffd0a90fa2998a7f93/node_modules/valaxy/client/pages/[...path].vue': {
       routes:
         | '/[...path]'
       views:
@@ -391,7 +398,7 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
-    'node_modules/.pnpm/valaxy-theme-yun@1.0.0-rc.8_d605b7048e33467f1b396db36d16d220/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@1.0.0-rc.1_e9e44b080f84a3b1839bc15626b52cd0/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
       routes:
         | '/page/[page]'
       views:
@@ -399,7 +406,7 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | 'page'
     }
-    'node_modules/.pnpm/valaxy-theme-yun@1.0.0-rc.8_d605b7048e33467f1b396db36d16d220/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@1.0.0-rc.1_e9e44b080f84a3b1839bc15626b52cd0/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
       routes:
         | '/posts/'
       views:
@@ -578,6 +585,14 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/python-原神启动.md': {
       routes:
         | '/posts/python-原神启动'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/RenamePro.md': {
+      routes:
+        | '/posts/RenamePro'
       views:
         | never
       pathParamNames:
