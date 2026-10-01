@@ -69,13 +69,13 @@ export default defineSiteConfig({
     methods: [
       {
         name: '支付宝',
-        url: 'https://raw.githubusercontent.com/Ha2eS1onn/image/refs/heads/main/images/2026/05/24/1779610312719_6v2y4____.jpg',
+        url: 'https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/05/24/1779610312719_6v2y4____.jpg',
         color: '#00A3EE',
         icon: 'i-ri-alipay-line',
       },
       {
         name: '微信支付',
-        url: 'https://raw.githubusercontent.com/Ha2eS1onn/image/refs/heads/main/images/2026/05/24/1779610226169_gb3cq___.png',
+        url: 'https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/05/24/1779610226169_gb3cq___.png',
         color: '#2DC100',
         icon: 'i-ri-wechat-pay-line',
       },

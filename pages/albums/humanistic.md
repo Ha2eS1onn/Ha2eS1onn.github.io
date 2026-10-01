@@ -6,7 +6,7 @@ toc: false
 aside: false
 photos:
   - caption: 一扭一转皆有情
-    src: /image/albums/cover/人文.jpg
+    src: https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/10/01/1790856212625_37549___.jpg
     desc: 很久很久以前路过修车店看见的场景
   - caption: 繁花
     src: https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/08/28/1787930683877_uq4w3___.jpg

@@ -9,10 +9,10 @@ aside: false    # 关闭侧边栏
 albums:         # 相簿列表
   - caption: 星空
     url: /albums/stars
-    cover: /image/albums/cover/星轨.jpg
+    cover: https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/08/22/1787384041569_drd11___.jpg
     desc: 星空和宇宙
   - caption: 人文
     url: /albums/humanistic
-    cover: /image/albums/cover/人文.jpg
+    cover: https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/10/01/1790856212625_37549___.jpg
     desc: 纪实
 ---

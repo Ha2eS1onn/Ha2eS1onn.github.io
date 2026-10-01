@@ -16,6 +16,13 @@ const projects: Project[] = [
     tags: ['Vue', 'Valaxy'],
   },
   {
+    name: 'RenamePro',
+    desc: '一款Windows10/11的文件重命名工具，支持改拓展名完成格式转换。'，
+    repo: 'https://github.com/ha2es1onn/RenamePro',
+    site: 'https://RenamePro.kasho.fun',
+    tags: ['C#', '.NET', 'Windows'],
+  },
+  {
     name: '星辞-starlit',
     desc: '3D 星图网站，使用 Three.js 构建交互式星空可视化。',
     repo: 'https://github.com/ha2es1onn/starlit',
