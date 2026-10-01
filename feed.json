@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://kasho.fun/posts/RenamePro",
+            "content_html": "<h1>RenamePro</h1>\n<p>在资源管理器里改文件后缀（例如 <code>a.jpg</code> 改成 <code>a.png</code>），程序在后台自动把文件内容真正转换成新格式的 Windows 托盘工具。</p>\n<p>它不新增右键菜单、不弹自定义</p>\n<br/><p>访问 <a href=\"https://kasho.fun/posts/RenamePro\" target=\"_blank\">https://kasho.fun/posts/RenamePro</a> 阅读全文。</p>",
+            "url": "https://kasho.fun/posts/RenamePro",
+            "title": "RenamePro",
+            "date_modified": "2026-10-01T00:00:00.000Z",
+            "date_published": "2026-10-01T00:00:00.000Z",
+            "author": {
+                "name": "桦凇",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
             "id": "https://kasho.fun/posts/秋昏杂兴",
             "content_html": "<h1 align=\"center\">秋昏杂兴</h1>\n<center>\n碎鳞翻覆示风嚣，<br>\n天碧云流话秋高。<br>\n二人箪食座危台，<br>\n无拘赏景沁心采。\n</center>\n<div<br/><p>访问 <a href=\"https://kasho.fun/posts/秋昏杂兴\" target=\"_blank\">https://kasho.fun/posts/秋昏杂兴</a> 阅读全文。</p>",
             "url": "https://kasho.fun/posts/秋昏杂兴",
@@ -240,7 +252,7 @@
         },
         {
             "id": "https://kasho.fun/posts/python-原神启动",
-            "content_html": "<pre><code>\nimport tkinter as tk\nfrom tkinter import messagebox\nimport webbrowser\nimport time\n\n\na_u<br/><p>访问 <a href=\"https://kasho.fun/posts/python-原神启动\" target=\"_blank\">https://kasho.fun/posts/python-原神启动</a> 阅读全文。</p>",
+            "content_html": "<pre><code class=\"language-python\">import tkinter as tk\nfrom tkinter import messagebox\nimport webbrowser\nimport time\n\n\na_url</code></pre>\n<br/><p>访问 <a href=\"https://kasho.fun/posts/python-原神启动\" target=\"_blank\">https://kasho.fun/posts/python-原神启动</a> 阅读全文。</p>",
             "url": "https://kasho.fun/posts/python-原神启动",
             "title": "python-原神启动",
             "date_modified": "2025-09-25T04:03:19.000Z",

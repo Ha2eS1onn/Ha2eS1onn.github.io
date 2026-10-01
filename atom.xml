@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kasho.fun/</id>
     <title>桦凇的小站</title>
-    <updated>2026-09-04T13:54:49.872Z</updated>
+    <updated>2026-10-01T05:50:35.798Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>桦凇</name>
         <email>i@valaxy.site</email>
-        <uri>https://valaxy.site</uri>
+        <uri>https://valaxy.site/</uri>
     </author>
     <link rel="alternate" href="https://kasho.fun/"/>
     <link rel="self" href="https://kasho.fun/atom.xml"/>
@@ -16,9 +16,25 @@
     <icon>https://kasho.fun/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2026 © 桦凇</rights>
     <entry>
+        <title type="html"><![CDATA[RenamePro]]></title>
+        <id>https://kasho.fun/posts/RenamePro</id>
+        <link href="https://kasho.fun/posts/RenamePro"/>
+        <updated>2026-10-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>RenamePro</h1>
+<p>在资源管理器里改文件后缀（例如 <code>a.jpg</code> 改成 <code>a.png</code>），程序在后台自动把文件内容真正转换成新格式的 Windows 托盘工具。</p>
+<p>它不新增右键菜单、不弹自定义</p>
+<br/><p>访问 <a href="https://kasho.fun/posts/RenamePro" target="_blank">https://kasho.fun/posts/RenamePro</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>桦凇</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site/</uri>
+        </author>
+        <published>2026-10-01T00:00:00.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[秋昏杂兴]]></title>
-        <id>https://kasho.fun/posts/秋昏杂兴</id>
-        <link href="https://kasho.fun/posts/秋昏杂兴"/>
+        <id>https://kasho.fun/posts/%E7%A7%8B%E6%98%8F%E6%9D%82%E5%85%B4</id>
+        <link href="https://kasho.fun/posts/%E7%A7%8B%E6%98%8F%E6%9D%82%E5%85%B4"/>
         <updated>2026-09-03T21:50:22.000Z</updated>
         <content type="html"><![CDATA[<h1 align="center">秋昏杂兴</h1>
 <center>
@@ -31,14 +47,14 @@
         <author>
             <name>桦凇</name>
             <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
+            <uri>https://valaxy.site/</uri>
         </author>
         <published>2026-09-03T21:50:22.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[语言一二事]]></title>
-        <id>https://kasho.fun/posts/语言一二事</id>
-        <link href="https://kasho.fun/posts/语言一二事"/>
+        <id>https://kasho.fun/posts/%E8%AF%AD%E8%A8%80%E4%B8%80%E4%BA%8C%E4%BA%8B</id>
+        <link href="https://kasho.fun/posts/%E8%AF%AD%E8%A8%80%E4%B8%80%E4%BA%8C%E4%BA%8B"/>
         <updated>2026-08-29T04:15:00.000Z</updated>
         <content type="html"><![CDATA[<h1>细路仔唔识讲话</h1>
 <blockquote>
@@ -50,7 +66,7 @@
         <author>
             <name>桦凇</name>
             <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
+            <uri>https://valaxy.site/</uri>
         </author>
         <published>2026-08-29T04:15:00.000Z</published>
     </entry>
@@ -81,7 +97,7 @@
         <author>
             <name>桦凇</name>
             <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
+            <uri>https://valaxy.site/</uri>
         </author>
         <published>2026-08-29T02:32:00.000Z</published>
     </entry>
@@ -112,7 +128,7 @@
         <author>
             <name>桦凇</name>
             <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
+            <uri>https://valaxy.site/</uri>
         </author>
         <published>2026-08-28T02:57:00.000Z</published>
     </entry>
@@ -130,14 +146,14 @@
         <author>
             <name>桦凇</name>
             <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
+            <uri>https://valaxy.site/</uri>
         </author>
         <published>2026-08-25T00:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[喂鱼]]></title>
-        <id>https://kasho.fun/posts/喂鱼</id>
-        <link href="https://kasho.fun/posts/喂鱼"/>
+        <id>https://kasho.fun/posts/%E5%96%82%E9%B1%BC</id>
+        <link href="https://kasho.fun/posts/%E5%96%82%E9%B1%BC"/>
         <updated>2025-12-23T20:41:22.000Z</updated>
         <content type="html"><![CDATA[<h1>喂鱼</h1>
 <p>清风撩发形影单，黑白红肥游鱼欢。<br>
@@ -149,14 +165,14 @@
         <author>
             <name>桦凇</name>
             <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
+            <uri>https://valaxy.site/</uri>
         </author>
         <published>2025-12-23T20:41:22.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[江城子·乙巳九月十六日梦臆]]></title>
-        <id>https://kasho.fun/posts/江城子·乙巳九月十六日梦臆</id>
-        <link href="https://kasho.fun/posts/江城子·乙巳九月十六日梦臆"/>
+        <id>https://kasho.fun/posts/%E6%B1%9F%E5%9F%8E%E5%AD%90%C2%B7%E4%B9%99%E5%B7%B3%E4%B9%9D%E6%9C%88%E5%8D%81%E5%85%AD%E6%97%A5%E6%A2%A6%E8%87%86</id>
+        <link href="https://kasho.fun/posts/%E6%B1%9F%E5%9F%8E%E5%AD%90%C2%B7%E4%B9%99%E5%B7%B3%E4%B9%9D%E6%9C%88%E5%8D%81%E5%85%AD%E6%97%A5%E6%A2%A6%E8%87%86"/>
         <updated>2025-11-06T20:38:08.000Z</updated>
         <content type="html"><![CDATA[<h1>江城子·乙巳九月十六日梦臆</h1>
 <p>  青雀伏栏翠竹流，月皎洁，霞漫天。独步徐行，暖风弄衣角。纵使所思隔千里，同光照，共婵娟。<br>
@@ -165,14 +181,14 @@
         <author>
             <name>桦凇</name>
             <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
+            <uri>https://valaxy.site/</uri>
         </author>
         <published>2025-11-06T20:38:08.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[七言·暖秋]]></title>
-        <id>https://kasho.fun/posts/七言·暖秋</id>
-        <link href="https://kasho.fun/posts/七言·暖秋"/>
+        <id>https://kasho.fun/posts/%E4%B8%83%E8%A8%80%C2%B7%E6%9A%96%E7%A7%8B</id>
+        <link href="https://kasho.fun/posts/%E4%B8%83%E8%A8%80%C2%B7%E6%9A%96%E7%A7%8B"/>
         <updated>2025-10-30T21:14:21.000Z</updated>
         <content type="html"><![CDATA[<h1>七言·暖秋</h1>
 <p>风割矮草枯黄遍，淡花尽落沾冷尘。<br>
@@ -183,14 +199,14 @@
         <author>
             <name>桦凇</name>
             <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
+            <uri>https://valaxy.site/</uri>
         </author>
         <published>2025-10-30T21:14:21.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[声声慢·重阳]]></title>
-        <id>https://kasho.fun/posts/声声慢·重阳</id>
-        <link href="https://kasho.fun/posts/声声慢·重阳"/>
+        <id>https://kasho.fun/posts/%E5%A3%B0%E5%A3%B0%E6%85%A2%C2%B7%E9%87%8D%E9%98%B3</id>
+        <link href="https://kasho.fun/posts/%E5%A3%B0%E5%A3%B0%E6%85%A2%C2%B7%E9%87%8D%E9%98%B3"/>
         <updated>2025-10-29T20:49:08.000Z</updated>
         <content type="html"><![CDATA[<h1>声声慢·重阳</h1>
 <p>  坐坐站站，眠眠断断，行行停停急急。九月九独行去，最起情思。<br>
@@ -200,14 +216,14 @@
         <author>
             <name>桦凇</name>
             <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
+            <uri>https://valaxy.site/</uri>
         </author>
         <published>2025-10-29T20:49:08.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[七言·秋夜独行梦归乡]]></title>
-        <id>https://kasho.fun/posts/七言·秋夜独行梦归乡</id>
-        <link href="https://kasho.fun/posts/七言·秋夜独行梦归乡"/>
+        <id>https://kasho.fun/posts/%E4%B8%83%E8%A8%80%C2%B7%E7%A7%8B%E5%A4%9C%E7%8B%AC%E8%A1%8C%E6%A2%A6%E5%BD%92%E4%B9%A1</id>
+        <link href="https://kasho.fun/posts/%E4%B8%83%E8%A8%80%C2%B7%E7%A7%8B%E5%A4%9C%E7%8B%AC%E8%A1%8C%E6%A2%A6%E5%BD%92%E4%B9%A1"/>
         <updated>2025-10-23T00:02:49.000Z</updated>
         <content type="html"><![CDATA[<h1>七言·秋夜独行梦归乡</h1>
 <p>风击枯桐悬赤月，月泣黑水浮腥血。<br>
@@ -219,14 +235,14 @@
         <author>
             <name>桦凇</name>
             <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
+            <uri>https://valaxy.site/</uri>
         </author>
         <published>2025-10-23T00:02:49.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[觉前暇思]]></title>
-        <id>https://kasho.fun/posts/觉前暇思</id>
-        <link href="https://kasho.fun/posts/觉前暇思"/>
+        <id>https://kasho.fun/posts/%E8%A7%89%E5%89%8D%E6%9A%87%E6%80%9D</id>
+        <link href="https://kasho.fun/posts/%E8%A7%89%E5%89%8D%E6%9A%87%E6%80%9D"/>
         <updated>2025-10-17T13:05:22.000Z</updated>
         <content type="html"><![CDATA[<h1>觉前暇思</h1>
 <p>风推北江浪涛涛，似闻松针翻簌簌。<br>
@@ -238,14 +254,14 @@
         <author>
             <name>桦凇</name>
             <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
+            <uri>https://valaxy.site/</uri>
         </author>
         <published>2025-10-17T13:05:22.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[方寸暇思集]]></title>
-        <id>https://kasho.fun/posts/方寸暇思集</id>
-        <link href="https://kasho.fun/posts/方寸暇思集"/>
+        <id>https://kasho.fun/posts/%E6%96%B9%E5%AF%B8%E6%9A%87%E6%80%9D%E9%9B%86</id>
+        <link href="https://kasho.fun/posts/%E6%96%B9%E5%AF%B8%E6%9A%87%E6%80%9D%E9%9B%86"/>
         <updated>2025-10-16T21:28:49.000Z</updated>
         <content type="html"><![CDATA[<h1>方寸暇思集</h1>
 <ol>
@@ -258,14 +274,14 @@
         <author>
             <name>桦凇</name>
             <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
+            <uri>https://valaxy.site/</uri>
         </author>
         <published>2025-10-16T21:28:49.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[西江月·结营有感]]></title>
-        <id>https://kasho.fun/posts/西江月·结营有感</id>
-        <link href="https://kasho.fun/posts/西江月·结营有感"/>
+        <id>https://kasho.fun/posts/%E8%A5%BF%E6%B1%9F%E6%9C%88%C2%B7%E7%BB%93%E8%90%A5%E6%9C%89%E6%84%9F</id>
+        <link href="https://kasho.fun/posts/%E8%A5%BF%E6%B1%9F%E6%9C%88%C2%B7%E7%BB%93%E8%90%A5%E6%9C%89%E6%84%9F"/>
         <updated>2025-10-15T21:05:49.000Z</updated>
         <content type="html"><![CDATA[<h1>西江月·结营有感</h1>
 <p>(已巳八月廿四，军训结营胸臆万千。以苦尽甘来，细思未然。作一阙为道细思之所以然。)<br>
@@ -274,14 +290,14 @@
         <author>
             <name>桦凇</name>
             <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
+            <uri>https://valaxy.site/</uri>
         </author>
         <published>2025-10-15T21:05:49.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[西江月·八月廿三记景]]></title>
-        <id>https://kasho.fun/posts/西江月·八月廿三记景</id>
-        <link href="https://kasho.fun/posts/西江月·八月廿三记景"/>
+        <id>https://kasho.fun/posts/%E8%A5%BF%E6%B1%9F%E6%9C%88%C2%B7%E5%85%AB%E6%9C%88%E5%BB%BF%E4%B8%89%E8%AE%B0%E6%99%AF</id>
+        <link href="https://kasho.fun/posts/%E8%A5%BF%E6%B1%9F%E6%9C%88%C2%B7%E5%85%AB%E6%9C%88%E5%BB%BF%E4%B8%89%E8%AE%B0%E6%99%AF"/>
         <updated>2025-10-15T13:15:49.000Z</updated>
         <content type="html"><![CDATA[<h1>西江月·八月廿三记景</h1>
 <p>(顷在侨中，闲时遇盛景。沁臆舒心，遂作词以记景)</p>
@@ -292,14 +308,14 @@
         <author>
             <name>桦凇</name>
             <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
+            <uri>https://valaxy.site/</uri>
         </author>
         <published>2025-10-15T13:15:49.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[七言·忆初试]]></title>
-        <id>https://kasho.fun/posts/七律·忆初试</id>
-        <link href="https://kasho.fun/posts/七律·忆初试"/>
+        <id>https://kasho.fun/posts/%E4%B8%83%E5%BE%8B%C2%B7%E5%BF%86%E5%88%9D%E8%AF%95</id>
+        <link href="https://kasho.fun/posts/%E4%B8%83%E5%BE%8B%C2%B7%E5%BF%86%E5%88%9D%E8%AF%95"/>
         <updated>2025-10-14T13:30:49.000Z</updated>
         <content type="html"><![CDATA[<h1>七律·忆初试</h1>
 <p>云迷翠巘涌红霞，雾笼清城飘细雨。<br>
@@ -310,14 +326,14 @@
         <author>
             <name>桦凇</name>
             <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
+            <uri>https://valaxy.site/</uri>
         </author>
         <published>2025-10-14T13:30:49.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[关于评论的公告]]></title>
-        <id>https://kasho.fun/posts/关于评论的公告</id>
-        <link href="https://kasho.fun/posts/关于评论的公告"/>
+        <id>https://kasho.fun/posts/%E5%85%B3%E4%BA%8E%E8%AF%84%E8%AE%BA%E7%9A%84%E5%85%AC%E5%91%8A</id>
+        <link href="https://kasho.fun/posts/%E5%85%B3%E4%BA%8E%E8%AF%84%E8%AE%BA%E7%9A%84%E5%85%AC%E5%91%8A"/>
         <updated>2025-10-02T15:56:34.000Z</updated>
         <content type="html"><![CDATA[<h1>关于评论功能的公告</h1>
 <p>就目前来说遇到的评论bug比较多 简单说明就是下面的几个</p>
@@ -335,14 +351,14 @@
         <author>
             <name>桦凇</name>
             <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
+            <uri>https://valaxy.site/</uri>
         </author>
         <published>2025-10-02T15:56:34.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[各种测试]]></title>
-        <id>https://kasho.fun/posts/各种测试</id>
-        <link href="https://kasho.fun/posts/各种测试"/>
+        <id>https://kasho.fun/posts/%E5%90%84%E7%A7%8D%E6%B5%8B%E8%AF%95</id>
+        <link href="https://kasho.fun/posts/%E5%90%84%E7%A7%8D%E6%B5%8B%E8%AF%95"/>
         <updated>2025-10-02T15:42:03.000Z</updated>
         <content type="html"><![CDATA[<h1>Hello_World</h1>
 <h2>test</h2>
@@ -352,14 +368,14 @@
         <author>
             <name>桦凇</name>
             <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
+            <uri>https://valaxy.site/</uri>
         </author>
         <published>2025-10-02T15:42:03.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[鹊桥仙-燕飞伴云]]></title>
-        <id>https://kasho.fun/posts/鹊桥仙-燕飞伴云</id>
-        <link href="https://kasho.fun/posts/鹊桥仙-燕飞伴云"/>
+        <id>https://kasho.fun/posts/%E9%B9%8A%E6%A1%A5%E4%BB%99-%E7%87%95%E9%A3%9E%E4%BC%B4%E4%BA%91</id>
+        <link href="https://kasho.fun/posts/%E9%B9%8A%E6%A1%A5%E4%BB%99-%E7%87%95%E9%A3%9E%E4%BC%B4%E4%BA%91"/>
         <updated>2025-09-29T18:38:43.000Z</updated>
         <content type="html"><![CDATA[<h1>鹊桥仙-燕飞伴云</h1>
 <p>燕飞伴云，凇霜化露，凛气萧萧掠木。红霞金霜间一节，沿溯阻绝不可见。<br>
@@ -369,14 +385,14 @@
         <author>
             <name>桦凇</name>
             <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
+            <uri>https://valaxy.site/</uri>
         </author>
         <published>2025-09-29T18:38:43.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[虞美人·东风凌月明青池]]></title>
-        <id>https://kasho.fun/posts/虞美人—东风凌月明青池</id>
-        <link href="https://kasho.fun/posts/虞美人—东风凌月明青池"/>
+        <id>https://kasho.fun/posts/%E8%99%9E%E7%BE%8E%E4%BA%BA%E2%80%94%E4%B8%9C%E9%A3%8E%E5%87%8C%E6%9C%88%E6%98%8E%E9%9D%92%E6%B1%A0</id>
+        <link href="https://kasho.fun/posts/%E8%99%9E%E7%BE%8E%E4%BA%BA%E2%80%94%E4%B8%9C%E9%A3%8E%E5%87%8C%E6%9C%88%E6%98%8E%E9%9D%92%E6%B1%A0"/>
         <updated>2025-09-25T21:42:00.000Z</updated>
         <content type="html"><![CDATA[<h2>虞美人·东风凌月明青池</h2>
 <p>东风凌月明青池，鱼戏藕花中。可爱蝉鸣绕菩提，借阵清风当远、济天下。</p>
@@ -387,34 +403,34 @@
         <author>
             <name>桦凇</name>
             <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
+            <uri>https://valaxy.site/</uri>
         </author>
         <published>2025-09-25T21:42:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[python-原神启动]]></title>
-        <id>https://kasho.fun/posts/python-原神启动</id>
-        <link href="https://kasho.fun/posts/python-原神启动"/>
+        <id>https://kasho.fun/posts/python-%E5%8E%9F%E7%A5%9E%E5%90%AF%E5%8A%A8</id>
+        <link href="https://kasho.fun/posts/python-%E5%8E%9F%E7%A5%9E%E5%90%AF%E5%8A%A8"/>
         <updated>2025-09-25T04:03:19.000Z</updated>
-        <content type="html"><![CDATA[<pre><code>
-import tkinter as tk
+        <content type="html"><![CDATA[<pre><code class="language-python">import tkinter as tk
 from tkinter import messagebox
 import webbrowser
 import time
 
 
-a_u<br/><p>访问 <a href="https://kasho.fun/posts/python-原神启动" target="_blank">https://kasho.fun/posts/python-原神启动</a> 阅读全文。</p>]]></content>
+a_url</code></pre>
+<br/><p>访问 <a href="https://kasho.fun/posts/python-原神启动" target="_blank">https://kasho.fun/posts/python-原神启动</a> 阅读全文。</p>]]></content>
         <author>
             <name>桦凇</name>
             <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
+            <uri>https://valaxy.site/</uri>
         </author>
         <published>2025-09-25T04:03:19.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[冷雨夜]]></title>
-        <id>https://kasho.fun/posts/冷雨夜</id>
-        <link href="https://kasho.fun/posts/冷雨夜"/>
+        <id>https://kasho.fun/posts/%E5%86%B7%E9%9B%A8%E5%A4%9C</id>
+        <link href="https://kasho.fun/posts/%E5%86%B7%E9%9B%A8%E5%A4%9C"/>
         <updated>2025-09-25T03:46:11.000Z</updated>
         <content type="html"><![CDATA[<h2>冷雨夜</h2>
 <p>雨，倾盆的雨，从巨浪般的乌云中狠狠砸下。雷声在闪电之间低沉地咆哮，仿佛整个世界都被这场雨与雷吞噬。这个夜晚，不属于人类，只属于天地间的轰鸣与湿润。</p>
@@ -423,14 +439,14 @@ a_u<br/><p>访问 <a href="https://kasho.fun/posts/python-原神启动" target="
         <author>
             <name>桦凇</name>
             <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
+            <uri>https://valaxy.site/</uri>
         </author>
         <published>2025-09-25T03:46:11.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[观星者之死]]></title>
-        <id>https://kasho.fun/posts/观星者之死</id>
-        <link href="https://kasho.fun/posts/观星者之死"/>
+        <id>https://kasho.fun/posts/%E8%A7%82%E6%98%9F%E8%80%85%E4%B9%8B%E6%AD%BB</id>
+        <link href="https://kasho.fun/posts/%E8%A7%82%E6%98%9F%E8%80%85%E4%B9%8B%E6%AD%BB"/>
         <updated>2025-09-24T21:37:53.000Z</updated>
         <content type="html"><![CDATA[<h2>目录</h2>
 <ul>
@@ -443,7 +459,7 @@ a_u<br/><p>访问 <a href="https://kasho.fun/posts/python-原神启动" target="
         <author>
             <name>桦凇</name>
             <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
+            <uri>https://valaxy.site/</uri>
         </author>
         <published>2025-09-24T21:37:53.000Z</published>
     </entry>
