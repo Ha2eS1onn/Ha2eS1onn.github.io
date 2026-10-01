@@ -17,7 +17,7 @@ const projects: Project[] = [
   },
   {
     name: 'RenamePro',
-    desc: '一款Windows10/11的文件重命名工具，支持改拓展名完成格式转换。'，
+    desc: '一款Windows10/11的文件重命名工具，支持改拓展名完成格式转换。',
     repo: 'https://github.com/ha2es1onn/RenamePro',
     site: 'https://RenamePro.kasho.fun',
     tags: ['C#', '.NET', 'Windows'],
