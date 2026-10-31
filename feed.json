@@ -4,12 +4,24 @@
     "home_page_url": "https://kasho.fun/",
     "feed_url": "https://kasho.fun/feed.json",
     "description": "亻尔     女 子    口 牙",
-    "icon": "https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/08/25/1787637241823_rf8td___.jpg",
+    "icon": "https://kasho.fun/avatar.jpg",
     "author": {
         "name": "桦凇",
         "url": "https://valaxy.site"
     },
     "items": [
+        {
+            "id": "https://kasho.fun/posts/游记",
+            "content_html": "<h1>2026年10月4日 01:47 周日 阴</h1>\n<p>从来没有在这么晚的时间写日记。也是因为今晚也要在麦当劳过夜，至于为什么呢……</p>\n<p>大概在半个月前，我就有计划和朋友去珠海玩几天，这不来了吗？但就我一个人，</p>\n<br/><p>访问 <a href=\"https://kasho.fun/posts/游记\" target=\"_blank\">https://kasho.fun/posts/游记</a> 阅读全文。</p>",
+            "url": "https://kasho.fun/posts/游记",
+            "title": "出行日记几篇",
+            "date_modified": "2026-10-11T02:05:00.000Z",
+            "date_published": "2026-10-11T02:05:00.000Z",
+            "author": {
+                "name": "桦凇",
+                "url": "https://valaxy.site"
+            }
+        },
         {
             "id": "https://kasho.fun/posts/RenamePro",
             "content_html": "<h1>RenamePro</h1>\n<p>在资源管理器里改文件后缀（例如 <code>a.jpg</code> 改成 <code>a.png</code>），程序在后台自动把文件内容真正转换成新格式的 Windows 托盘工具。</p>\n<p>它不新增右键菜单、不弹自定义</p>\n<br/><p>访问 <a href=\"https://kasho.fun/posts/RenamePro\" target=\"_blank\">https://kasho.fun/posts/RenamePro</a> 阅读全文。</p>",

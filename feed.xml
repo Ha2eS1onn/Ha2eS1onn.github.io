@@ -4,16 +4,27 @@
         <title>桦凇的小站</title>
         <link>https://kasho.fun/</link>
         <description>亻尔     女 子    口 牙</description>
-        <lastBuildDate>Thu, 01 Oct 2026 12:29:44 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 31 Oct 2026 12:03:11 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
             <title>桦凇的小站</title>
-            <url>https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/08/25/1787637241823_rf8td___.jpg</url>
+            <url>https://kasho.fun/avatar.jpg</url>
             <link>https://kasho.fun/</link>
         </image>
         <copyright>CC BY-NC-SA 4.0 2026 © 桦凇</copyright>
         <atom:link href="https://kasho.fun/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[出行日记几篇]]></title>
+            <link>https://kasho.fun/posts/%E6%B8%B8%E8%AE%B0</link>
+            <guid isPermaLink="false">https://kasho.fun/posts/游记</guid>
+            <pubDate>Sun, 11 Oct 2026 02:05:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>2026年10月4日 01:47 周日 阴</h1>
+<p>从来没有在这么晚的时间写日记。也是因为今晚也要在麦当劳过夜，至于为什么呢……</p>
+<p>大概在半个月前，我就有计划和朋友去珠海玩几天，这不来了吗？但就我一个人，</p>
+<br/><p>访问 <a href="https://kasho.fun/posts/游记" target="_blank">https://kasho.fun/posts/游记</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (桦凇)</author>
+        </item>
         <item>
             <title><![CDATA[RenamePro]]></title>
             <link>https://kasho.fun/posts/RenamePro</link>

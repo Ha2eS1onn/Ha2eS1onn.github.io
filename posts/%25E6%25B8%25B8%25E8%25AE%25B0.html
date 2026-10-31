@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html  lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.png">
+    <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+    </script>
+  <style type="text/css">
+    :root { color-scheme: light dark; --va-c-bg: #fff; }
+    html.dark { --va-c-bg: #000; }
+    html { background-color: var(--va-c-bg); }
+  </style><style id="valaxy-fouc">body{opacity:0!important}</style><style>body{transition:opacity .15s ease}</style><noscript><style>body{opacity:1!important}</style></noscript><script>(function foucGuardScript(maxDuration) {
+  var done = 0;
+  function reveal() {
+    if (done) return;
+    done = 1;
+    var s = document.getElementById("valaxy-fouc");
+    if (s) s.remove();
+  }
+  function check() {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      if (!links[i].sheet) return;
+    }
+    reveal();
+  }
+  new MutationObserver(check).observe(document.head, {
+    childList: true,
+    attributes: true,
+    attributeFilter: ["media", "rel"]
+  });
+  addEventListener("load", reveal);
+  if (maxDuration)
+    setTimeout(reveal, maxDuration);
+})(5000)</script>
+    <script>
+    const locale = localStorage.getItem('valaxy-locale') || 'zh-CN';
+    document.documentElement.setAttribute('lang', locale);
+    </script>
+    
+  <script type="module" crossorigin src="/assets/index.BsrZhArw.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.B0Z9INg1.js">
+  <link rel="modulepreload" crossorigin href="/assets/framework.DbZYHR6p.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-i18n.Dh5bZCP0.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-router.BDinZaks.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/dayjs.B0bpVDKD.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/pinia.CTwSDrZa.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/@vueuse/motion.CKtkgmRX.js">
+  <link rel="modulepreload" crossorigin href="/assets/theme.CTB1yV0Y.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/nprogress.CwIlWzim.js">
+  <link rel="stylesheet" crossorigin href="/assets/style.BWQsDpFM.css">
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.DMm9YOAa.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Cx986IdX.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Jm3AIy58.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.BMLOBm91.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.B22Nviop.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.Dr94JaBh.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.t53AETM-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.DA0__PXp.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D3wIWfF6.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D5yQViql.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.C195tn64.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.oD1tc_U0.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size3-Regular.CTq5MqoE.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.BF-4gkZK.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff" as="font" type="font/woff" crossorigin>
+<link rel="modulepreload" crossorigin href="/assets/theme.CTB1yV0Y.js">
+<link rel="preload" href="/assets/none.DLM1AMsD.jpg" as="image">
+<link rel="preload" href="/assets/bg-img.kXdNMxcF.jpg" as="image">
+<link rel="preload" href="/assets/sidebar-bg-img.mp54gEws.webp" as="image">
+<link rel="preload" href="/assets/lg.CosQH4Cu.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/lg.B0dIV2BS.svg" as="image">
+<link rel="preload" href="/assets/loading.BZOHaeKn.gif" as="image">
+<link rel="modulepreload" crossorigin href="/assets/游记.DUrJdgIo.js">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>出行日记几篇 - 桦凇的小站</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&display=swap">
+<meta property="og:locale:alternate" content="en">
+<meta name="description" content="亻尔     女 子    口 牙">
+<meta property="og:description" content="亻尔     女 子    口 牙">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:site_name" content="桦凇的小站">
+<meta property="og:title" content="出行日记几篇">
+<meta property="og:image" content="https://kasho.fun/favicon.png">
+<meta property="og:image:alt" content="出行日记几篇">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kasho.fun/posts/%25E6%25B8%25B8%25E8%25AE%25B0">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="亻尔     女 子    口 牙">
+<meta name="twitter:image" content="https://kasho.fun/favicon.png">
+<meta name="twitter:title" content="出行日记几篇">
+<link rel="icon" href="/favicon.png" type="image/png">
+<meta name="generator" content="Valaxy 1.0.0-rc.16">
+<link rel="canonical" href="https://kasho.fun/posts/%25E6%25B8%25B8%25E8%25AE%25B0">
+<meta name="theme-color" content="#fff">
+<meta name="msapplication-TileColor" content="#fff">
+</head>
+<body>
+  <div id="app"><!--[--><!--[--><!--[--><!--v-if--><div class="yun-page-header-gradient"></div><div class="yun-nav-menu z-$yun-z-nav-menu fixed bg-transparent" data-v-9e4410a1><!--  --><div class="inline-flex justify-start items-center flex-1" data-v-9e4410a1><button type="button" class="vt-hamburger menu-btn sidebar-toggle leading-4 size-12 lg:hidden!" aria-label="mobile navigation" aria-expanded="false" inline-flex cursor="pointer" hover="bg-white/80 dark:bg-black/80" z="$yun-z-menu-btn" data-v-9e4410a1><span class="vt-hamburger-container"><span class="vt-hamburger-top"></span><span class="vt-hamburger-middle"></span><span class="vt-hamburger-bottom"></span></span></button><a href="/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 data-v-9e4410a1><!--[--><div class="size-6 i-ri-home-4-line"></div><!--]--></a><div class="hidden lg:contents" data-v-9e4410a1><!--[--><a href="/posts/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="文章" data-v-9e4410a1><!--[--><div class="size-6 i-ri-article-line"></div><!--]--></a><a href="/projects" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="项目" data-v-9e4410a1><!--[--><div class="size-6 i-ri-code-box-line"></div><!--]--></a><a href="/links/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="友链" data-v-9e4410a1><!--[--><div class="size-6 i-ri-link"></div><!--]--></a><a href="/about" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="关于" data-v-9e4410a1><!--[--><div class="size-6 i-ri-user-line"></div><!--]--></a><a href="/albums/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="相册" data-v-9e4410a1><!--[--><div class="size-6 i-ri-gallery-line"></div><!--]--></a><a href="/archives/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="归档" data-v-9e4410a1><!--[--><div class="size-6 i-ri-archive-line"></div><!--]--></a><a href="/tags/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="标签" data-v-9e4410a1><!--[--><div class="size-6 i-ri-price-tag-3-line"></div><!--]--></a><a href="/categories/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="分类" data-v-9e4410a1><!--[--><div class="size-6 i-ri-folder-2-line"></div><!--]--></a><!--]--></div></div><div class="flex flex-1 flex-center" data-v-9e4410a1><div flex="~ center col h-full" class="nav-menu-title-container cursor-pointer" data-v-9e4410a1><!----><span class="font-light truncate">桦凇的小站</span></div></div><div class="inline-flex-center justify-end items-center flex-1" data-v-9e4410a1><!-- <template v-if="!app.isMobile && themeConfig.nav">
+          <template v-for="item in themeConfig.nav" :key="item.text">
+            <AppLink
+              v-if="'link' in item"
+              :to="item.link"
+              class="menu-btn inline-flex-center p-2 transition text-$va-c-text"
+              inline-flex cursor="pointer"
+              hover="bg-white/80 dark:bg-black/80"
+              z="$yun-z-menu-btn"
+            >
+              {{ item.text }}
+            </AppLink>
+            <template v-else-if="'items' in item" />
+          </template>
+        </template> --><button class="yun-icon-btn rounded-none! hidden sm:inline-flex" title="切换语言" style="color:var(--va-c-text);" data-v-9e4410a1><div i-ri-translate class="transition transform"></div></button><button type="button" class="yun-icon-btn yun-toggle-dark rounded-none!" title="切换深色模式" aria-label="切换深色模式" data-v-9e4410a1><div i="ri-sun-line dark:ri-moon-line"></div></button><!----></div></div><!----><!--v-if--><!----><!--[--><div class="yun-bg"></div><!--]--><!----><button type="button" class="back-to-top yun-icon-btn" aria-label="回到顶部" title="回到顶部" tabindex="-1" aria-hidden="true" style="--yun-back-top-progress:0deg;"><div class="back-to-top-arrow" i-ri-arrow-up-s-line aria-hidden="true"></div></button><!--]--><!--[--><!--]--><!----><!--]--><div class="min-h-screen flex flex-col"><div class="mt-12 md:mt-24 yun-layout-wrapper-content yun-layout-wrapper__content"><!--[--><div class="yun-layout-left gap-4 sticky top-$yun-margin-top w-80"><!--[--><!--[--><div class="yun-card flex-center overflow-hidden p-4 min-h-sm" flex="~ col gap-1" min-h="100px" bg="$va-c-bg-light" data-v-55c6a617><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center" data-v-55c6a617><!--[--><div class="site-info gap-1 items-center text-center" flex="~ col" p="t-8"><a href="/about" class="site-author-avatar inline-flex-center"><div class="relative yun-author-avatar"><div class="absolute size-full avatar-bg bg-image-$yun-home-hero-image-background-image filter-blur-2xl op-30"></div><img class="rounded-full size-full bg-white dark:bg-white/20 p-1 m-0 absolute" src="/avatar.jpg" alt="avatar"><span class="site-author-status absolute" title="该干点啥呢">🫠</span></div></a><a href="/about" class="site-author-name font-black font-serif text-$va-c-text op-80 hover:op-100 flex-center">桦凇</a><a href="/about/site" class="site-name text-lg leading-loose">桦凇的小站</a><h4 class="site-subtitle block op-70" text="xs">Thanks for your visit!</h4><div class="site-description">亻尔     女 子    口 牙</div></div><div class="yun-gradient-line my-2 op-20"></div><nav class="site-nav" text-xl mt-2><a href="/archives/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="归档" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-archive-line"></div><div class="text-2xl icon-active i-ri-archive-fill"></div><span class="text-xs">归档</span></div><span class="count text-base text-black/80 dark:text-white/80">24</span></a><a href="/categories/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="分类" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-folder-2-line"></div><div class="text-2xl icon-active i-ri-folder-2-fill"></div><span class="text-xs">分类</span></div><span class="count text-base text-black/80 dark:text-white/80">6</span></a><a href="/tags/" class="post-classify-nav-item gap-1 w-20 p-2 rounded transition op-80" flex="~ col center" title="标签" hover="bg-$va-c-bg-soft op-100"><div flex="~ col" class="text-$va-c-text inline-flex-center gap-1"><!-- Use CSS to toggle icons based on router-link-active class to avoid SSR hydration mismatch --><div class="text-2xl icon-default i-ri-price-tag-3-line"></div><div class="text-2xl icon-active i-ri-price-tag-3-fill"></div><span class="text-xs">标签</span></div><span class="count text-base text-black/80 dark:text-white/80">19</span></a></nav><div class="yun-gradient-line my-2 op-20"></div><div class="links-of-author"><!--[--><a class="links-of-author-item yun-icon-btn" rel="noopener" href="QQ.html" title="QQ" target="_blank" style="color:#12B7F5;"><div class="i-ri-qq-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://github.com/Ha2eS1onn" title="GitHub" target="_blank" style="color:#6e5494;"><div class="i-ri-github-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="https://space.bilibili.com/1925086310" title="哔哩哔哩" target="_blank" style="color:#FF8EB3;"><div class="i-ri-bilibili-line icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="/Wechat.html" title="微信" target="_blank" style="color:#1AAD19;"><div class="i-ri-wechat-2-line icon"></div></a><a class="links-of-author-item yun-icon-btn social-link-invert-in-dark" rel="noopener" href="https://x.com/hua_song114514" title="Twitter" target="_blank" style="color:black;"><div class="i-ri-twitter-x-fill icon"></div></a><a class="links-of-author-item yun-icon-btn" rel="noopener" href="mailto:l14758426983@yeah.net" title="E-Mail" target="_blank" style="color:#8E71C1;"><div class="i-ri-mail-line icon"></div></a><!--]--></div><div class="yun-gradient-line my-2 op-20"></div><div class="links flex-center"><!--[--><a href="/projects/" class="va-link link-item yun-icon-btn" inline-flex title="项目整理" style="color:#00bfff;"><!--[--><div class="i-ri-code-box-line icon size-6"></div><!--]--></a><a href="/links/" class="va-link link-item yun-icon-btn" inline-flex title="友情链接" style="color:#ff8282;"><!--[--><div class="i-ri-link icon size-6"></div><!--]--></a><a href="/albums/" class="va-link link-item yun-icon-btn" inline-flex title="相册" style="color:#ff9100;"><!--[--><div class="i-ri-gallery-line icon size-6"></div><!--]--></a><!--]--></div><!--]--></div><!----></div><!--[--><!--
+    Empty placeholder, meant to be overridden by the user (see demo/yun/components/YunAdBoard.vue).
+    `v-if="false"` renders a comment node instead of a real element: this avoids the SSR hydration
+    crash a raw `<template>` causes (#711), while still adding no gap to the parent flex layout,
+    which an empty `<div>` would (ab57216f).
+  --><!----><!--]--><!--]--><!--]--></div><main class="yun-main lt-md:w-full" flex="~ center"><!--[--><div class="content w-full md:w-3xl lg:w-2xl xl:w-2xl 2xl:w-4xl" flex="~ col grow" p="lt-md:0"><div class="yun-card flex-center overflow-hidden" flex="col" min-h="100px" bg="$va-c-bg-light" m="0" data-v-55c6a617><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center" data-v-55c6a617><!--[--><!----><div class="mt-8 mb-4"><!--[--><header class="post-header"><h1 p="2" text="2xl center" font="serif black" style="color:" class="post-title flex-center"><!----><span inline-flex class="leading-none">出行日记几篇</span></h1></header><!--]--></div><!--[--><!--[--><!--[--><!--[--><!----><div flex="~ center" text="sm" class="post-meta-col post-meta gap-4"><div class="post-time flex items-center gap-4"><span class="posted-time inline-flex-center gap-1" title="发表于2026-10-11 02:05:00"><div class="inline-block" i-ri-calendar-line></div><time class="op-80">2026-10-11</time></span><!----></div><!--[--><span id="busuanzi_container_page_pv"> 本文总阅读量 <span id="busuanzi_value_page_pv"></span> 次 </span><!--]--><div class="inline-flex-center gap-4"><!----><div class="inline-flex gap-4" text="sm" h="5"><!----><!----></div><!----></div></div><!--]--><!----><div class="inline-flex mt-2" text="sm" py="1"><a href="/categories?category=%E6%96%87%E5%AD%A6" class="transition post-category inline-flex-center text-xs border-$va-c-divider" px-2 h="7" border rounded-full hover="bg-blue-500 text-white"><div m="x-1" inline-flex i-ri-folder-2-line></div><span>文学</span></a><span mx="2"></span><div class="post-tags inline-flex" items="center" gap="1" flex="wrap 1" justify="end"><!--[--><a href="/tags/?tag=%E7%BB%8F%E5%8E%86" class="transition post-tag inline-flex-center text-xs border-$va-c-divider" px-2 h="7" rounded-full border hover="bg-blue-500"><span>经历</span></a><a href="/tags/?tag=%E6%97%A5%E8%AE%B0" class="transition post-tag inline-flex-center text-xs border-$va-c-divider" px-2 h="7" rounded-full border hover="bg-blue-500"><span>日记</span></a><!--]--></div></div><!--]--><!----><!--]--><!--]--><div p="x-4 b-8" class="sm:px-6 lg:px-12 xl:px-16" w="full"><!--[--><!--]--><!--[--><!-- <Transition appear> --><article class="markdown-body"><!--[--><!----><!----><!--[--><!--]--><!--[--><h1 id="_2026年10月4日-01-47-周日-阴" tabindex="-1">2026年10月4日 01:47 周日 阴 <a class="header-anchor" href="#_2026年10月4日-01-47-周日-阴" aria-label="Permalink to &quot;2026年10月4日 01:47 周日 阴&quot;">​</a></h1><p>从来没有在这么晚的时间写日记。也是因为今晚也要在麦当劳过夜，至于为什么呢……</p><p>大概在半个月前，我就有计划和朋友去珠海玩几天，这不来了吗？但就我一个人，因为约的人全都临时变卦了。但还是来了，原因也在前边提过。故天将降大任于斯人也。</p><p>早上10月3日早上我七点钟就起了床，去美林坐大巴。我和家里报的是坐高铁，3个人，住民宿。结果现在变成了坐大巴，一个人，睡麦当劳，当然也是我自找的。8点10分上车，12点30才到，这大巴简直他妈的像索命来的。早上是全都时间都在车上了，除了在顺德服务区那可怜的二十分钟。</p><p>下午随便对付了两口就扫了辆共享单车沿着情侣路靠海那边骑，骑了9公里，到一个码头没路了。又往海滨浴场去。去到是下午三点多，人超多。去一个酒店上了个高级厕所就去海滨浴场游泳了，游完泳，游完浴大概是下午五点多。到一个平台站了小半个钟，那地方能看到香港和深圳。</p><p>等头发差不多干了之后继续往北走，到了爱情邮局，在二楼观景平台又吹了一会风，就去周边商圈逛了。</p><p>晚饭吃的是酸辣粉，十块钱，挺值，但很辣。吃完坐公交到了珠海大剧院，也就是日月贝。最后是去了一个24小时营业的麦当劳，打算在这地方对付一晚上。来之前在这个片区逛了逛，因为来早了店里还有很多人，我不想打扰别人做生意。</p><p>写到这里基本上快写完了，很平常的旅行流水账记录。但对我来说这次出行又不只是这些稀松平常……</p><p>我来之前其实就有点焦虑，因为我完全把这次的出行当成对自己的压力测试了。下车之后是在拱北口岸附近，想过去澳门看看，但想到一些别的事情，所以便打消了这个念头。在口岸周围走了走，找吃的，结果全都特贵。索性以我广东人的直觉走到了一个不远城中村吃沙县。出门有个招牌写着酸辣粉，沙县的酸辣粉确实好吃。结果老板说这里没有，让我看那边的菜单。我又不好意思不吃了，硬点了份云吞面。讲真，不太好吃，不过15块的份量很多，差点没吃完。</p><p>在海边骑车的时候有一群小伙骑在我前面，有个小哥逐渐落单了。我按我的速度骑。然后那个小哥慢慢靠过来，叫了我一声“帅哥”，我马上回应他。他伸出拳头出来，示意我碰拳。我和他碰了下拳，他感谢我，我笑了笑回应他。后来他很快骑回队伍里去了。真是个有趣的人。</p><p>去海滨浴场感觉真去错地方了。那地方人又多，又坑。游泳时买了条泳裤25块，存包花了15，最冤的是淋浴花了15。本来有公共淋浴间的，但是要排队，很多人，我受不了不想排，于是花15去那个收费的。结果他妈的，那个收费的没隔间，一整个东北大澡堂风情。免费的都有隔间。这谁受得了。我硬着头皮穿了条泳裤洗完了。还好大家都这么坦诚，只有一两个是全裸的。在我洗完擦身体穿衣服的时候，人就好多起来了。全裸的也多起来了，反正我是真受不了，很快全部穿完就走了。</p><p>最后是在日月贝。我刚上公交车就很焦虑，很迷茫。我无助，无力，不知道该往哪里走，完全是对巨大物体的好奇，它们太大了……我走到了那俩贝壳下面拍了照片。让我思考我今晚到底要去哪里。最后来到了这个24小时的麦当劳。我先在这个片区逛了一小时。期间我一直给别人发信息分享自己的所见所闻，还是发的语音。手机充电宝都没电了而且找不到插座，就被迫扫了共享充电宝。还在一个影院的沙发上坐了快20分钟，很舒服，真的。我当时考虑要不要看电影，但看了一下只有午夜场的鬼片。我不是很敢看，而且这也是一笔花销。便回到了麦当劳门口的椅子坐着。我很无聊，抬头看天，看到了三颗星星。在珠海的光污染条件下能看到真不容易。感觉像北斗的勺斗和勺把的交接，打开地图看了一下发现还真是北斗七星的前几颗。</p><p>最后的最后，点了一份小吃三件套，在一个能看到整个店铺的角落坐下了。现在是凌晨2点41。我前面有个兄弟躺着睡觉。当然店里还有不少。我左边有个大叔一直在大声外放短视频，还调戏女主播，最无语他还把鞋脱了。</p><p>不管了，天将降大任于是人也……</p><h1 id="_2026年10月7日-周三-21-47-晴" tabindex="-1">2026年10月7日 周三 21:47 晴 <a class="header-anchor" href="#_2026年10月7日-周三-21-47-晴" aria-label="Permalink to &quot;2026年10月7日 周三 21:47 晴&quot;">​</a></h1><p>国庆假期这么快就过完了啊，回来补了补作业，因为是有答案的，所以基本上补完了已经。现在脑子也清醒了一点。</p><p>10月3日在珠海麦当劳写了那篇日记，休息一会到了10月4日凌晨4:30左右就出门去海边看日出了，实在在麦当劳待不下去了，那天就睡了一小时都没有。出门看到天上月光很亮，但是星光也很亮，一般都是月明星稀的才对，但那天的夜空极其通透，很多星星都特别亮。</p><p>在海边看完日出就坐公交到了圆明新园，这地方九点开放，我七点半就到了。干脆在门口路边的长椅上躺着忍受广场舞的歌声噪杂睡了一小时。之后进圆明新园闲逛，这地方真没什么有意思的，全是中医、八卦、五行之类的乱七八糟，也就只有建筑能看了，十点钟就走完一圈出去了。</p><p>骑车又去了海滨浴场，那天的天气比前一天好。</p><p>不冷，换好衣服下渤海泡了一会，坐在救生员伞荫下看海。坐了一会下阵雨了，走回淋浴房那边冲了一下，换了套衣服。第二次比第一次习惯了一点，在公共淋浴间没那么不自在了，但穿衣服的时候起生理反应了好尴尬，好在转过身去应该没人发现。搞定出来雨基本停了。对了，我第二次去淋浴没花钱，因为我把前一天用的那个纸手环凭证扣下来又戴了回去。 最后是骑车沿着海边到口岸旁边的珠海站去，受不了了提前一天回清远约了朋友网吧包夜。在珠海站附近找吃的，导航找一家店死活找不到，只好在零食店买了几块钱零食吃。</p><p>我买车票没注意买成了无座，便在还没上人的座位坐一下眯一会，可是就坐了一站人就来了，后面的两个多小时我都是站着的，直到回到清远坐上公交车。</p><p>回清远吃了个螺蛳粉之后去A家坐了一会，就去网吧了，但网吧包夜要十一点以后，我们是八点左右到的。三个人走到前边的东莹炸鸡坐了一晚上，其间我睡了十来分钟，也因为受不了大间出去走了一圈。十点四十我们到了网吧楼下坐在路边等。十一点终还是坐在网吧里边了。</p><p>我那个位置被空调对着吹，奇冷无比，打了几把游戏就想睡觉了，硬是睡不着。他们俩中途要下楼，我让B带了包红塔山。我留下看包。回来之后我抽了两根烟，感觉不太对劲，估计是太久没抽了。没管，在B站搜了个《绝命毒师》的解说放着就睡去了。睡了一个多小时，起来是六点还是七点左右。又打了把游戏，实在是冷得受不了了，我叫他们一起走了。</p><p>和A走到他家楼下吃了个肠粉（我钱还没给他），和他上楼去他房间待了一会，他去洗澡我坐他床上玩手机，我不敢睡着。他洗完澡我就走了，因为他哥要回来了，他爸妈也不知道什么时候醒。</p><p>我自己一个人走去了美林的麦当劳，计划了一下时间，眯了半个小时，到了九点半就回家了。到家时候坐了一会老妈下班回来了，寒喧了几句就没管了，我在客厅睡着了。从十点睡到了下午六点。起来时老妈不在，和老爸他们吃了个饭，晚上又睡着了。</p><h1 id="_2026年10月8日-21-48-晴" tabindex="-1">2026年10月8日 21:48 晴 <a class="header-anchor" href="#_2026年10月8日-21-48-晴" aria-label="Permalink to &quot;2026年10月8日 21:48 晴&quot;">​</a></h1><p>昨晚写到很晚还没写完，只能回宿舍了，所以今晚接着上一篇写。</p><p>10月5日凌晨和朋友在网吧包夜。我是前一天晚上找了A，他很快就答应了，B是去之前我在高铁上叫的，也很快答应了，这俩人平时不大靠谱，但找他们消遣也总是好的。让B帮忙买了包红塔山，当时认为是太久没抽烟不习惯觉得劲大。昨天给一个平时抽烟比较多的舍友抽了才知道这烟真不太对劲，他也觉得劲大受不了。我抽的时候吸一口好像被人打了一拳一样。</p><p>那两天在珠海骑车起码20公里，走路大概五万多步。右脚脚趾磨掉了块皮，现在还有点痛，还好今天体育课没跑一千米。 感觉去了那两天整个人都通透了。</p><!--]--><!--]--><!----><!----></article><!-- </Transition> --><!--]--><!--[--><!--[--><!--[--><div class="yun-sponsor-container flex-center flex-col" m="t-6"><button class="sponsor-button yun-icon-btn shadow hover:shadow-md" title="我很可爱，请给我钱！" text="red-400"><div class="mt-2px" i-ri-heart-fill></div></button><div m="y-4" class="qrcode-container qrcode flex-center flex-col"><div class="sponsor-description" mb="4" text="sm">这是关于赞助的一些描述</div><div class="flex justify-around"><!--[--><a class="flex-center flex-col animate-iteration-1 animate-fade-in" href="https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/05/24/1779610312719_6v2y4____.jpg" target="_blank" style="color:#00A3EE"><img class="sponsor-method-img" border="~ rounded" p="1" loading="lazy" src="https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/05/24/1779610312719_6v2y4____.jpg" title="支付宝"><div text="xl" m="2" class="i-ri-alipay-line"></div></a><a class="flex-center flex-col animate-iteration-1 animate-fade-in" href="https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/05/24/1779610226169_gb3cq___.png" target="_blank" style="color:#2DC100"><img class="sponsor-method-img" border="~ rounded" p="1" loading="lazy" src="https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/05/24/1779610226169_gb3cq___.png" title="微信支付"><div text="xl" m="2" class="i-ri-wechat-pay-line"></div></a><!--]--></div></div></div><ul class="post-copyright" m="y-4"><li class="post-copyright-author"><strong>本文作者：</strong><span>桦凇</span></li><li class="post-copyright-link"><strong>本文链接：</strong><a href="https://kasho.fun/posts/%25E6%25B8%25B8%25E8%25AE%25B0" target="_blank" title="本文链接">https://kasho.fun/posts/%E6%B8%B8%E8%AE%B0</a></li><li class="post-copyright-license"><strong>版权声明：</strong><span>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 ">CC BY-NC-SA</a> 许可协议。</span></li></ul><!--]--><!--]--><!--]--></div><!--]--></div><!----></div><!--[--><!--]--><!--[--><div class="post-nav"><div class="post-nav-item"><!----></div><div class="post-nav-item"><a href="/posts/RenamePro" class="post-nav-next" title="RenamePro"><span class="title truncate" text="sm">RenamePro</span><div class="icon" i-ri-arrow-right-s-line></div></a></div></div><!--]--><!--[--><!--]--><!--[--><div class="yun-card flex-center overflow-hidden comment yun-comment sm:p-6 lg:px-12 xl:px-16" flex="col" min-h="100px" bg="$va-c-bg-light" w="full" p="4" data-v-55c6a617><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center" data-v-55c6a617><!--[--><!----><!--]--></div><!----></div><!--]--><!--[--><!--
+    Empty placeholder, meant to be overridden by the user (see demo/yun/components/YunAdBoard.vue).
+    `v-if="false"` renders a comment node instead of a real element: this avoids the SSR hydration
+    crash a raw `<template>` causes (#711), while still adding no gap to the parent flex layout,
+    which an empty `<div>` would (ab57216f).
+  --><!----><!--]--><!--[--><!--]--><!--[--><!--]--></div><!--]--></main><!--[--><button class="xl:hidden toc-btn shadow-md fixed yun-icon-btn z-20 bg-$va-c-bg-soft" opacity="75" right="4" bottom="19"><div i-ri-file-list-line></div></button><!----><aside flex="~ col" class="va-card yun-aside min-h-sm rounded-2" text="center" overflow="auto"><div class="w-full" flex="~ col" pb-2><!--[--><h2 m="t-6 b-2" font="serif black">文章目录</h2><div style="display:none;" data-v-87bf63c5><div class="content" data-v-87bf63c5><div class="outline-title" data-v-87bf63c5>本页</div><div class="outline-marker" data-v-87bf63c5></div><nav aria-labelledby="doc-outline-aria-label" data-v-87bf63c5><span id="doc-outline-aria-label" class="visually-hidden" data-v-87bf63c5> Table of Contents for current page </span><ul class="root va-toc relative z-1 css-i18n-toc" data-v-87bf63c5 data-v-e8655827><!--[--><!--]--></ul></nav></div></div><!--]--><div class="flex-grow"></div><!----></div></aside><!--]--><!--]--></div><div class="yun-footer" data-v-0fc24715><div class="copyright" data-v-0fc24715> © 2025 - 2026 桦凇 </div><div class="footer-stats" data-v-0fc24715><span class="stat-item" data-v-0fc24715><span class="stat-label" data-v-0fc24715>(=^･ω･^=) 已运行</span><span class="stat-value" data-v-0fc24715></span></span><span class="stat-divider" data-v-0fc24715>·</span><span id="busuanzi_container_site_pv" class="stat-item" style="display:none;" data-v-0fc24715><span class="stat-label" data-v-0fc24715>总访问量</span><span id="busuanzi_value_site_pv" class="stat-value" data-v-0fc24715></span></span><span class="stat-divider" data-v-0fc24715>·</span><span id="busuanzi_container_site_uv" class="stat-item" style="display:none;" data-v-0fc24715><span class="stat-label" data-v-0fc24715>访客数</span><span id="busuanzi_value_site_uv" class="stat-value" data-v-0fc24715></span></span></div></div></div><!--]--></div><script>window.__INITIAL_STATE__='{"pinia":{"yun-app":{"bannerAnimationDone":false},"app":{"showLoading":true},"site":{},"routerStore":{}}}'</script><script type="application/ld+json" data-hid="schema-org-graph">{"@context":"https://schema.org","@graph":[{"@id":"https://kasho.fun/#identity","@type":"Person","name":"桦凇","url":"https://kasho.fun/","image":{"@id":"https://kasho.fun/#/schema/image/1"},"sameAs":["QQ.html","https://github.com/Ha2eS1onn","https://space.bilibili.com/1925086310","/Wechat.html","https://x.com/hua_song114514","mailto:l14758426983@yeah.net"]},{"@id":"https://kasho.fun/#website","@type":"WebSite","dateModified":"2026-10-11T02:05:00.000Z","datePublished":"2026-10-11T02:05:00.000Z","inLanguage":"zh-CN","name":"出行日记几篇","url":"https://kasho.fun/","publisher":{"@id":"https://kasho.fun/#identity"}},{"@id":"https://kasho.fun/posts/%25E6%25B8%25B8%25E8%25AE%25B0#webpage","@type":"WebPage","dateModified":"2026-10-11T02:05:00.000Z","datePublished":"2026-10-11T02:05:00.000Z","description":"亻尔     女 子    口 牙","name":"出行日记几篇","url":"https://kasho.fun/posts/%25E6%25B8%25B8%25E8%25AE%25B0","isPartOf":{"@id":"https://kasho.fun/#website"},"potentialAction":[{"@type":"ReadAction","target":["https://kasho.fun/posts/%25E6%25B8%25B8%25E8%25AE%25B0"]}]},{"@id":"https://kasho.fun/posts/%25E6%25B8%25B8%25E8%25AE%25B0#article","dateModified":"2026-10-11T02:05:00.000Z","datePublished":"2026-10-11T02:05:00.000Z","headline":"出行日记几篇","inLanguage":"zh-CN","thumbnailUrl":"https://kasho.fun/favicon.png","@type":["Article","BlogPosting"],"author":{"@id":"https://kasho.fun/#/schema/person/1"},"image":{"@id":"https://kasho.fun/#/schema/image/2"},"isPartOf":{"@id":"https://kasho.fun/posts/%25E6%25B8%25B8%25E8%25AE%25B0#webpage"},"mainEntityOfPage":{"@id":"https://kasho.fun/posts/%25E6%25B8%25B8%25E8%25AE%25B0#webpage"},"publisher":{"@id":"https://kasho.fun/#identity"}},{"@id":"https://kasho.fun/#/schema/person/1","@type":"Person","name":"桦凇","url":"https://valaxy.site"},{"@id":"https://kasho.fun/#/schema/image/1","@type":"ImageObject","contentUrl":"https://kasho.fun/avatar.jpg","inLanguage":"zh-CN","url":"https://kasho.fun/avatar.jpg"},{"@id":"https://kasho.fun/#/schema/image/2","@type":"ImageObject","contentUrl":"https://kasho.fun/favicon.png","inLanguage":"zh-CN","url":"https://kasho.fun/favicon.png"}]}</script>
+  <div id="valaxy-teleports"></div>
+  
+</body>
+</html>
