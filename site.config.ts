@@ -5,7 +5,9 @@ export default defineSiteConfig({
   lang: 'zh-CN',
   title: '桦凇的小站',
   author: {
-    avatar: 'https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/08/25/1787637241823_rf8td___.jpg',
+    // 本地托管，避免 jsdelivr 在国内偶发连接重置导致头像加载失败
+    // 原地址（如需回退可直接换回）：https://cdn.jsdelivr.net/gh/Ha2eS1onn/image@main/images/2026/08/25/1787637241823_rf8td___.jpg
+    avatar: '/avatar.jpg',
     name: '桦凇',
     status: {
       emoji: '🫠',
